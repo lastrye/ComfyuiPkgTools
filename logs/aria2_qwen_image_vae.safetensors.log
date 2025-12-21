@@ -1,0 +1,236 @@
+Caught Error while parsing environment variable 'http_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--http-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+Caught Error while parsing environment variable 'https_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--https-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+
+12/19 20:37:14 [[1;32mNOTICE[0m] Downloading 1 item(s)
+Caught Error while parsing environment variable 'all_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--all-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+
+12/19 20:37:14 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/6891702273b6dc7c1ad8de72/af593c8dd215d3a8b62cb0d9b976b0c689941c86e978917dc374ad4b33cd8898?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123714Z&X-Amz-Expires=3600&X-Amz-Signature=bef9d9d71d827ec3281b0788fd39cecbe6244aefe38a03ee9854644ebfa2f92b&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27qwen_image_vae.safetensors%3B+filename%3D%22qwen_image_vae.safetensors%22%3B&x-id=GetObject&Expires=1766151434&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQzNH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODkxNzAyMjczYjZkYzdjMWFkOGRlNzIvYWY1OTNjOGRkMjE1ZDNhOGI2MmNiMGQ5Yjk3NmIwYzY4OTk0MWM4NmU5Nzg5MTdkYzM3NGFkNGIzM2NkODg5OCoifV19&Signature=ktXBGll4cOBdXCuyrd%7EwIXXhBA95mRUSr9obbVnLn8YnBlVo9sHaLWUpDKI7ph5OGyPQX%7EFPxmlnFGFX-BZsWHkI946P%7EV2rPxeQglkr6s1pmHKcUDekr%7EXKk7y1yx0Rv6Ix%7E3lqro7y-bqAg4MCo1ngJpnqhq9TJXiLgfnZ7Y8U2LAC-g9LsyMAVIWj%7EOlhvacjInmZtU8tsKdiJYVoecoD96S34cFOBe7S4c4adGgWcK1vqWacLL9rTPWIppuAAbeERWcx9ez02GcosSaAS8sf-Qp81a3l6lejvMvYQKv7Y9fv3VAdGZyVkUgbzM1QTSwR7Tz6-kTzokRJxP4%7Ejg__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Fri Dec 19 20:37:15 2025 *** 
+===============================================================================
+[#8b7033 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 0B/0B CN:1 DL:0B]
+
+12/19 20:37:15 [[1;32mNOTICE[0m] CUID#13 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/6891702273b6dc7c1ad8de72/af593c8dd215d3a8b62cb0d9b976b0c689941c86e978917dc374ad4b33cd8898?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123659Z&X-Amz-Expires=3600&X-Amz-Signature=1c808946373995f4750831e8e4ab18ffa56928c1ced84e8f78317502ab8a4077&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=644495541bc692d87b28eb48&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27qwen_image_vae.safetensors%3B+filename%3D%22qwen_image_vae.safetensors%22%3B&x-id=GetObject&Expires=1766151419&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQxOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODkxNzAyMjczYjZkYzdjMWFkOGRlNzIvYWY1OTNjOGRkMjE1ZDNhOGI2MmNiMGQ5Yjk3NmIwYzY4OTk0MWM4NmU5Nzg5MTdkYzM3NGFkNGIzM2NkODg5OCoifV19&Signature=ZnhkrOaCIHMO3HvhoYsY3rzzD3p%7EBYT5EsLy9t6Y7APw9P4CcMQzz3qiFjh9jjL91LHiVcBpDtv8XP6LM8ojkfpAPqvHV%7ET-j5l1FS143DHjCrlWGK-6U9Z1Zlyf3YDYW%7EZpdbJmXC3VjZuu7nDIfLK8Bv7UP9KTw4XWL9WdAiuI7lKCaQAhmRe0Ah2DcwObu2DcSEDAcqM9KOmAD60tzQI8NLFHzDMkLlaCXRfmLR2pUaI3f84wECmRpF1PRLxiDHSXPM-Uc2ttH6a-TGxOHg6nVGkL3up3OGeaolFsX7LnkoSBvkPw9udxX%7EXpu9lR7r-V4C2liU1Dz4zoAijSBA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:15 [[1;32mNOTICE[0m] CUID#9 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/6891702273b6dc7c1ad8de72/af593c8dd215d3a8b62cb0d9b976b0c689941c86e978917dc374ad4b33cd8898?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123715Z&X-Amz-Expires=3600&X-Amz-Signature=473f397be3ce1fdb585df7620d5c9c1b22ad2ee35482489844fac348782cf36a&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27qwen_image_vae.safetensors%3B+filename%3D%22qwen_image_vae.safetensors%22%3B&x-id=GetObject&Expires=1766151435&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQzNX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODkxNzAyMjczYjZkYzdjMWFkOGRlNzIvYWY1OTNjOGRkMjE1ZDNhOGI2MmNiMGQ5Yjk3NmIwYzY4OTk0MWM4NmU5Nzg5MTdkYzM3NGFkNGIzM2NkODg5OCoifV19&Signature=JKepMWLXGZog5nRrFTKJAubqbNR5-v8rCV9g3SlheQYxtAFV3ixDWNcYSWfUHR45Unjx9vH4RAHGB9Btc6o5-3--lGRDJhOo4KGvGLmFaT6ekZNFCloMgKsUb47kpgVvRIgC-TOVs2XaeliuoriCBqW2fgsZoA5bMNHK1iy9P9e%7EAN7Vlm9u49LpQwLfnYCMn7Fz3z2phpPkhHto1FlztiFMWa3V%7E2sNORC0lMGD8r3FW7-WL4wHir0qXziAwluFSuChxHDi4oTNqlPiEKQ13c%7EX1ES0Rp5DWv6Q9POELIjSWbE7rBmSbJMpU%7EGG0QAUPPpDgva7wJAIEvUppjPisQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:15 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/6891702273b6dc7c1ad8de72/af593c8dd215d3a8b62cb0d9b976b0c689941c86e978917dc374ad4b33cd8898?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123714Z&X-Amz-Expires=3600&X-Amz-Signature=bef9d9d71d827ec3281b0788fd39cecbe6244aefe38a03ee9854644ebfa2f92b&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27qwen_image_vae.safetensors%3B+filename%3D%22qwen_image_vae.safetensors%22%3B&x-id=GetObject&Expires=1766151434&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQzNH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODkxNzAyMjczYjZkYzdjMWFkOGRlNzIvYWY1OTNjOGRkMjE1ZDNhOGI2MmNiMGQ5Yjk3NmIwYzY4OTk0MWM4NmU5Nzg5MTdkYzM3NGFkNGIzM2NkODg5OCoifV19&Signature=ktXBGll4cOBdXCuyrd%7EwIXXhBA95mRUSr9obbVnLn8YnBlVo9sHaLWUpDKI7ph5OGyPQX%7EFPxmlnFGFX-BZsWHkI946P%7EV2rPxeQglkr6s1pmHKcUDekr%7EXKk7y1yx0Rv6Ix%7E3lqro7y-bqAg4MCo1ngJpnqhq9TJXiLgfnZ7Y8U2LAC-g9LsyMAVIWj%7EOlhvacjInmZtU8tsKdiJYVoecoD96S34cFOBe7S4c4adGgWcK1vqWacLL9rTPWIppuAAbeERWcx9ez02GcosSaAS8sf-Qp81a3l6lejvMvYQKv7Y9fv3VAdGZyVkUgbzM1QTSwR7Tz6-kTzokRJxP4%7Ejg__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:15 [[1;32mNOTICE[0m] CUID#15 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/6891702273b6dc7c1ad8de72/af593c8dd215d3a8b62cb0d9b976b0c689941c86e978917dc374ad4b33cd8898?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123715Z&X-Amz-Expires=3600&X-Amz-Signature=473f397be3ce1fdb585df7620d5c9c1b22ad2ee35482489844fac348782cf36a&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27qwen_image_vae.safetensors%3B+filename%3D%22qwen_image_vae.safetensors%22%3B&x-id=GetObject&Expires=1766151435&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQzNX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODkxNzAyMjczYjZkYzdjMWFkOGRlNzIvYWY1OTNjOGRkMjE1ZDNhOGI2MmNiMGQ5Yjk3NmIwYzY4OTk0MWM4NmU5Nzg5MTdkYzM3NGFkNGIzM2NkODg5OCoifV19&Signature=JKepMWLXGZog5nRrFTKJAubqbNR5-v8rCV9g3SlheQYxtAFV3ixDWNcYSWfUHR45Unjx9vH4RAHGB9Btc6o5-3--lGRDJhOo4KGvGLmFaT6ekZNFCloMgKsUb47kpgVvRIgC-TOVs2XaeliuoriCBqW2fgsZoA5bMNHK1iy9P9e%7EAN7Vlm9u49LpQwLfnYCMn7Fz3z2phpPkhHto1FlztiFMWa3V%7E2sNORC0lMGD8r3FW7-WL4wHir0qXziAwluFSuChxHDi4oTNqlPiEKQ13c%7EX1ES0Rp5DWv6Q9POELIjSWbE7rBmSbJMpU%7EGG0QAUPPpDgva7wJAIEvUppjPisQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:16 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/6891702273b6dc7c1ad8de72/af593c8dd215d3a8b62cb0d9b976b0c689941c86e978917dc374ad4b33cd8898?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123715Z&X-Amz-Expires=3600&X-Amz-Signature=473f397be3ce1fdb585df7620d5c9c1b22ad2ee35482489844fac348782cf36a&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27qwen_image_vae.safetensors%3B+filename%3D%22qwen_image_vae.safetensors%22%3B&x-id=GetObject&Expires=1766151435&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQzNX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODkxNzAyMjczYjZkYzdjMWFkOGRlNzIvYWY1OTNjOGRkMjE1ZDNhOGI2MmNiMGQ5Yjk3NmIwYzY4OTk0MWM4NmU5Nzg5MTdkYzM3NGFkNGIzM2NkODg5OCoifV19&Signature=JKepMWLXGZog5nRrFTKJAubqbNR5-v8rCV9g3SlheQYxtAFV3ixDWNcYSWfUHR45Unjx9vH4RAHGB9Btc6o5-3--lGRDJhOo4KGvGLmFaT6ekZNFCloMgKsUb47kpgVvRIgC-TOVs2XaeliuoriCBqW2fgsZoA5bMNHK1iy9P9e%7EAN7Vlm9u49LpQwLfnYCMn7Fz3z2phpPkhHto1FlztiFMWa3V%7E2sNORC0lMGD8r3FW7-WL4wHir0qXziAwluFSuChxHDi4oTNqlPiEKQ13c%7EX1ES0Rp5DWv6Q9POELIjSWbE7rBmSbJMpU%7EGG0QAUPPpDgva7wJAIEvUppjPisQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:16 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/6891702273b6dc7c1ad8de72/af593c8dd215d3a8b62cb0d9b976b0c689941c86e978917dc374ad4b33cd8898?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123715Z&X-Amz-Expires=3600&X-Amz-Signature=473f397be3ce1fdb585df7620d5c9c1b22ad2ee35482489844fac348782cf36a&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27qwen_image_vae.safetensors%3B+filename%3D%22qwen_image_vae.safetensors%22%3B&x-id=GetObject&Expires=1766151435&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQzNX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODkxNzAyMjczYjZkYzdjMWFkOGRlNzIvYWY1OTNjOGRkMjE1ZDNhOGI2MmNiMGQ5Yjk3NmIwYzY4OTk0MWM4NmU5Nzg5MTdkYzM3NGFkNGIzM2NkODg5OCoifV19&Signature=JKepMWLXGZog5nRrFTKJAubqbNR5-v8rCV9g3SlheQYxtAFV3ixDWNcYSWfUHR45Unjx9vH4RAHGB9Btc6o5-3--lGRDJhOo4KGvGLmFaT6ekZNFCloMgKsUb47kpgVvRIgC-TOVs2XaeliuoriCBqW2fgsZoA5bMNHK1iy9P9e%7EAN7Vlm9u49LpQwLfnYCMn7Fz3z2phpPkhHto1FlztiFMWa3V%7E2sNORC0lMGD8r3FW7-WL4wHir0qXziAwluFSuChxHDi4oTNqlPiEKQ13c%7EX1ES0Rp5DWv6Q9POELIjSWbE7rBmSbJMpU%7EGG0QAUPPpDgva7wJAIEvUppjPisQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Fri Dec 19 20:37:16 2025 *** 
+===============================================================================
+[#8b7033 2.0MiB/242MiB(0%) CN:8 DL:2.1MiB ETA:1m53s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 2.0MiB/242MiB(0%) CN:8 DL:2.1MiB ETA:1m53s]
+
+12/19 20:37:16 [[1;32mNOTICE[0m] CUID#14 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/6891702273b6dc7c1ad8de72/af593c8dd215d3a8b62cb0d9b976b0c689941c86e978917dc374ad4b33cd8898?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123715Z&X-Amz-Expires=3600&X-Amz-Signature=473f397be3ce1fdb585df7620d5c9c1b22ad2ee35482489844fac348782cf36a&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27qwen_image_vae.safetensors%3B+filename%3D%22qwen_image_vae.safetensors%22%3B&x-id=GetObject&Expires=1766151435&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQzNX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODkxNzAyMjczYjZkYzdjMWFkOGRlNzIvYWY1OTNjOGRkMjE1ZDNhOGI2MmNiMGQ5Yjk3NmIwYzY4OTk0MWM4NmU5Nzg5MTdkYzM3NGFkNGIzM2NkODg5OCoifV19&Signature=JKepMWLXGZog5nRrFTKJAubqbNR5-v8rCV9g3SlheQYxtAFV3ixDWNcYSWfUHR45Unjx9vH4RAHGB9Btc6o5-3--lGRDJhOo4KGvGLmFaT6ekZNFCloMgKsUb47kpgVvRIgC-TOVs2XaeliuoriCBqW2fgsZoA5bMNHK1iy9P9e%7EAN7Vlm9u49LpQwLfnYCMn7Fz3z2phpPkhHto1FlztiFMWa3V%7E2sNORC0lMGD8r3FW7-WL4wHir0qXziAwluFSuChxHDi4oTNqlPiEKQ13c%7EX1ES0Rp5DWv6Q9POELIjSWbE7rBmSbJMpU%7EGG0QAUPPpDgva7wJAIEvUppjPisQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Fri Dec 19 20:37:17 2025 *** 
+===============================================================================
+[#8b7033 7.7MiB/242MiB(3%) CN:8 DL:3.9MiB ETA:59s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 7.7MiB/242MiB(3%) CN:8 DL:3.9MiB ETA:59s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:18 2025 *** 
+===============================================================================
+[#8b7033 17MiB/242MiB(7%) CN:8 DL:5.8MiB ETA:38s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 17MiB/242MiB(7%) CN:8 DL:5.8MiB ETA:38s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:19 2025 *** 
+===============================================================================
+[#8b7033 28MiB/242MiB(11%) CN:8 DL:7.2MiB ETA:29s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 28MiB/242MiB(11%) CN:8 DL:7.2MiB ETA:29s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:20 2025 *** 
+===============================================================================
+[#8b7033 41MiB/242MiB(17%) CN:8 DL:8.4MiB ETA:23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 41MiB/242MiB(17%) CN:8 DL:8.4MiB ETA:23s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:21 2025 *** 
+===============================================================================
+[#8b7033 48MiB/242MiB(20%) CN:8 DL:8.2MiB ETA:23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 48MiB/242MiB(20%) CN:8 DL:8.2MiB ETA:23s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:22 2025 *** 
+===============================================================================
+[#8b7033 57MiB/242MiB(23%) CN:8 DL:8.3MiB ETA:22s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 57MiB/242MiB(23%) CN:8 DL:8.3MiB ETA:22s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:23 2025 *** 
+===============================================================================
+[#8b7033 69MiB/242MiB(28%) CN:8 DL:8.7MiB ETA:19s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 69MiB/242MiB(28%) CN:8 DL:8.7MiB ETA:19s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:24 2025 *** 
+===============================================================================
+[#8b7033 80MiB/242MiB(33%) CN:8 DL:9.0MiB ETA:17s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 80MiB/242MiB(33%) CN:8 DL:9.0MiB ETA:17s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:25 2025 *** 
+===============================================================================
+[#8b7033 92MiB/242MiB(38%) CN:7 DL:9.2MiB ETA:16s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 92MiB/242MiB(38%) CN:7 DL:9.2MiB ETA:16s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:26 2025 *** 
+===============================================================================
+[#8b7033 100MiB/242MiB(41%) CN:7 DL:9.9MiB ETA:14s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 100MiB/242MiB(41%) CN:7 DL:9.9MiB ETA:14s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:27 2025 *** 
+===============================================================================
+[#8b7033 109MiB/242MiB(45%) CN:6 DL:10MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 109MiB/242MiB(45%) CN:6 DL:10MiB ETA:12s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:28 2025 *** 
+===============================================================================
+[#8b7033 116MiB/242MiB(48%) CN:6 DL:10MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 116MiB/242MiB(48%) CN:6 DL:10MiB ETA:12s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:29 2025 *** 
+===============================================================================
+[#8b7033 123MiB/242MiB(51%) CN:5 DL:9.5MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 123MiB/242MiB(51%) CN:5 DL:9.5MiB ETA:12s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:30 2025 *** 
+===============================================================================
+[#8b7033 128MiB/242MiB(52%) CN:5 DL:8.8MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 128MiB/242MiB(52%) CN:5 DL:8.8MiB ETA:12s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:31 2025 *** 
+===============================================================================
+[#8b7033 134MiB/242MiB(55%) CN:5 DL:8.3MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 134MiB/242MiB(55%) CN:5 DL:8.3MiB ETA:12s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:32 2025 *** 
+===============================================================================
+[#8b7033 143MiB/242MiB(59%) CN:5 DL:8.0MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 143MiB/242MiB(59%) CN:5 DL:8.0MiB ETA:12s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:33 2025 *** 
+===============================================================================
+[#8b7033 153MiB/242MiB(63%) CN:5 DL:8.4MiB ETA:10s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 153MiB/242MiB(63%) CN:5 DL:8.4MiB ETA:10s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:34 2025 *** 
+===============================================================================
+[#8b7033 162MiB/242MiB(66%) CN:5 DL:8.3MiB ETA:9s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 162MiB/242MiB(66%) CN:5 DL:8.3MiB ETA:9s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:35 2025 *** 
+===============================================================================
+[#8b7033 172MiB/242MiB(71%) CN:5 DL:8.1MiB ETA:8s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 172MiB/242MiB(71%) CN:5 DL:8.1MiB ETA:8s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:36 2025 *** 
+===============================================================================
+[#8b7033 182MiB/242MiB(75%) CN:4 DL:8.2MiB ETA:7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 182MiB/242MiB(75%) CN:4 DL:8.2MiB ETA:7s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:37 2025 *** 
+===============================================================================
+[#8b7033 192MiB/242MiB(79%) CN:4 DL:8.3MiB ETA:5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 192MiB/242MiB(79%) CN:4 DL:8.3MiB ETA:5s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:38 2025 *** 
+===============================================================================
+[#8b7033 202MiB/242MiB(83%) CN:4 DL:8.6MiB ETA:4s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 202MiB/242MiB(83%) CN:4 DL:8.6MiB ETA:4s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:39 2025 *** 
+===============================================================================
+[#8b7033 213MiB/242MiB(88%) CN:3 DL:9.1MiB ETA:3s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 213MiB/242MiB(88%) CN:3 DL:9.1MiB ETA:3s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:40 2025 *** 
+===============================================================================
+[#8b7033 223MiB/242MiB(92%) CN:2 DL:9.6MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 223MiB/242MiB(92%) CN:2 DL:9.6MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:41 2025 *** 
+===============================================================================
+[#8b7033 232MiB/242MiB(95%) CN:1 DL:9.7MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 232MiB/242MiB(95%) CN:1 DL:9.7MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:42 2025 *** 
+===============================================================================
+[#8b7033 237MiB/242MiB(98%) CN:1 DL:9.4MiB]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#8b7033 237MiB/242MiB(98%) CN:1 DL:9.4MiB]
+
+12/19 20:37:43 [[1;32mNOTICE[0m] Download complete: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+8b7033|OK  |   8.6MiB/s|/run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/qwen-image/qwen_image_vae.safetensors
+
+Status Legend:
+(OK):download completed.

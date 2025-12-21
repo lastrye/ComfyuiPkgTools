@@ -7,7 +7,10 @@ import json
 import hashlib
 
 import folder_paths
-from server import PromptServer
+try:
+    from server import PromptServer
+except ImportError:
+    from web_source.usersocket.server import PromptServer
 
 
 def extract_model_file_names(json_data):

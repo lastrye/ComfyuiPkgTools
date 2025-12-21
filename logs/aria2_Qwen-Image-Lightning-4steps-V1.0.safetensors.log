@@ -1,0 +1,1190 @@
+Caught Error while parsing environment variable 'http_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--http-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+Caught Error while parsing environment variable 'https_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--https-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+Caught Error while parsing environment variable 'all_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--all-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+
+12/19 20:37:43 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+12/19 20:37:43 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123743Z&X-Amz-Expires=3600&X-Amz-Signature=004bff275b1a352b90290167864320f8dd61983e20321aac7c21c550de303351&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151463&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=u4%7EbZUAk7BFalAgpvRJxWGgPARM3LWHi4n-ndZdl5KKCWabZOMwvW4k8yZAWadHgribSu6fRR4vrCPT2jTb07WUg78Xj06UBvlRkLvzrT8Mj0SIhkSkRub8uj4mdJnyVeUxsd0vipqSOmWw6GRv8C5g1J63Rt2XXeuwpIfxSK%7EM-0NsVdMlhyfyp5u91Czu9XaUFR2opbDHHkODS8Jto2PtLwfj-bBIps-sINCmYOxlseXCEhZmgOvxlZxVtVFF5-TaWisB%7E%7ENg-72qNWG-P78SxXQTiNoP7WcleG91St7gYdq6i%7EIjDqBh%7ESKq39R6Ge%7E0%7E9pJE0y3fuyqoakuT2w__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Fri Dec 19 20:37:44 2025 *** 
+===============================================================================
+[#7bb47a 48KiB/1.5GiB(0%) CN:16 DL:333KiB ETA:1h22m57s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 48KiB/1.5GiB(0%) CN:16 DL:333KiB ETA:1h22m57s]
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#9 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#18 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#13 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#22 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#15 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#23 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#16 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#20 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/19 20:37:44 [[1;32mNOTICE[0m] CUID#21 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Fri Dec 19 20:37:45 2025 *** 
+===============================================================================
+[#7bb47a 2.6MiB/1.5GiB(0%) CN:16 DL:2.3MiB ETA:11m23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 2.6MiB/1.5GiB(0%) CN:16 DL:2.3MiB ETA:11m23s]
+
+12/19 20:37:45 [[1;32mNOTICE[0m] CUID#19 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123744Z&X-Amz-Expires=3600&X-Amz-Signature=aba2c0ecaf60d676bd27d5a14233aa4b92ade8101461e24be0a54cdeb9802e28&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151464&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=L3wlvc0ObVdvm2sGwsAlRMXIzve-ED8bsgazyjaM73FsUgevFgWDkCi93m4s0CVB-64HSIYyESQBeB1TFG6BmLEiUROAXm0avF7ccyfvOjNf%7EX-DLpjQVFLsh8xVCLs1QmqFYbpFBW-ODcSbD5iGCufce3FwLfdGxejP1AEd0NxxmFu9a4M59Qme5K-lhO0smsgpaixE9nUc9WFzNbpjw0cY5GvlG0P5NHVmoWQhIHreX8jtLJ2kodfXNlR%7EY57JIIh2jHw81W7a%7Ej0q41wW7jleIVEvoOscGS9uVEmL2DOIZ9iTZvby%7Ewr4L2OCgxyohGbu0SNZaM3FANfIM0vihw__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Fri Dec 19 20:37:46 2025 *** 
+===============================================================================
+[#7bb47a 8.3MiB/1.5GiB(0%) CN:16 DL:3.9MiB ETA:6m44s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 8.3MiB/1.5GiB(0%) CN:16 DL:3.9MiB ETA:6m44s]
+
+12/19 20:37:46 [[1;32mNOTICE[0m] CUID#17 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123745Z&X-Amz-Expires=3600&X-Amz-Signature=3b6324e5ff79dad62c0dd8da03e350560da64db7d8fce5531e4eb881702cc4ed&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151465&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2NX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=SBBGnOHQGLwH4EEjIJq4LabPxi6JxbSJuu2WvhtmR-TbtAbd7zHRAj2%7EWUoCZp%7EZwI7NxhdWv--gLCdVza1v-t5pyXfoX91heOAJZbRXDCV6SjBb6zXOlI0rS8y8w3yYjH5ObpNy16AomBJTu0KrlfSBO8CZDmj-Wcl8jnHJOiUW24GKKe2jWNw2BgTPv9dt6YuyfBZdDjHWuvngYusRZIE2hrM79lrkwxjCD%7EnUMdxj0FobhOaqk0JYIq1oMDCYTH%7EH6bLX1NO2XkA-y5ySyoriUspVC7NDJfn0i-2unSLROT-wcRUwkZqjy62QLMPqiV4fD8V9iAXwnezIZApzCA__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Fri Dec 19 20:37:47 2025 *** 
+===============================================================================
+[#7bb47a 18MiB/1.5GiB(1%) CN:16 DL:5.8MiB ETA:4m32s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 18MiB/1.5GiB(1%) CN:16 DL:5.8MiB ETA:4m32s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:48 2025 *** 
+===============================================================================
+[#7bb47a 30MiB/1.5GiB(1%) CN:16 DL:7.3MiB ETA:3m36s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 30MiB/1.5GiB(1%) CN:16 DL:7.3MiB ETA:3m36s]
+
+12/19 20:37:48 [[1;32mNOTICE[0m] CUID#14 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/689761ce345c5cafa2ebc6a6/790d5b3f296aede39e89900f77a88801ef02caacad5f019d01413c749a5d4b6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251219T123747Z&X-Amz-Expires=3600&X-Amz-Signature=97bf28da9ad523e29ae3eb4c2852433a1d10f7dfc6ec0a973787d3f387a40f52&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27Qwen-Image-Lightning-4steps-V1.0.safetensors%3B+filename%3D%22Qwen-Image-Lightning-4steps-V1.0.safetensors%22%3B&x-id=GetObject&Expires=1766151467&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjE1MTQ2N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82ODk3NjFjZTM0NWM1Y2FmYTJlYmM2YTYvNzkwZDViM2YyOTZhZWRlMzllODk5MDBmNzdhODg4MDFlZjAyY2FhY2FkNWYwMTlkMDE0MTNjNzQ5YTVkNGI2YioifV19&Signature=c4%7EeEEFlQOjiNTALmwM8ldAjZwiUAAtr1PFfLeWE5snlMZ-kQ4MpTKeMiDp3J3bM7W3zfHMD0bm6UOcsCcznIfH0f3WT%7EhLIlS-JiM8abVwNHEFU-1nvzs7IrhSjQAXkC%7ErZcpjCmI-i6AufdpqNsr8cnClrrm9%7EzwLaQbSOHDTGk5VDBKfIOgajspggtudxMA7URpHrzS9cWWZARcGe3CxbWin4iyfHjQCXQTvzEwdap3eNnUtat-ns-OT8wSX7elfWNaYRpRMyn2jr2gwXkwA3CRhyB8b63y8rgBxkKsyMyM7KdQWIVaHSFzpjFZAs7oEzO6E%7EDkOqkWWS9E69mw__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Fri Dec 19 20:37:49 2025 *** 
+===============================================================================
+[#7bb47a 39MiB/1.5GiB(2%) CN:16 DL:7.8MiB ETA:3m22s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 39MiB/1.5GiB(2%) CN:16 DL:7.8MiB ETA:3m22s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:50 2025 *** 
+===============================================================================
+[#7bb47a 52MiB/1.5GiB(3%) CN:16 DL:8.7MiB ETA:3m]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 52MiB/1.5GiB(3%) CN:16 DL:8.7MiB ETA:3m]
+ *** Download Progress Summary as of Fri Dec 19 20:37:51 2025 *** 
+===============================================================================
+[#7bb47a 63MiB/1.5GiB(3%) CN:16 DL:8.9MiB ETA:2m53s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 63MiB/1.5GiB(3%) CN:16 DL:8.9MiB ETA:2m53s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:52 2025 *** 
+===============================================================================
+[#7bb47a 74MiB/1.5GiB(4%) CN:16 DL:9.2MiB ETA:2m47s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 74MiB/1.5GiB(4%) CN:16 DL:9.2MiB ETA:2m47s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:53 2025 *** 
+===============================================================================
+[#7bb47a 85MiB/1.5GiB(5%) CN:16 DL:9.3MiB ETA:2m43s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 85MiB/1.5GiB(5%) CN:16 DL:9.3MiB ETA:2m43s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:54 2025 *** 
+===============================================================================
+[#7bb47a 95MiB/1.5GiB(5%) CN:16 DL:10MiB ETA:2m28s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 95MiB/1.5GiB(5%) CN:16 DL:10MiB ETA:2m28s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:55 2025 *** 
+===============================================================================
+[#7bb47a 108MiB/1.5GiB(6%) CN:16 DL:11MiB ETA:2m15s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 108MiB/1.5GiB(6%) CN:16 DL:11MiB ETA:2m15s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:56 2025 *** 
+===============================================================================
+[#7bb47a 115MiB/1.5GiB(7%) CN:16 DL:10MiB ETA:2m18s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 115MiB/1.5GiB(7%) CN:16 DL:10MiB ETA:2m18s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:57 2025 *** 
+===============================================================================
+[#7bb47a 126MiB/1.5GiB(7%) CN:16 DL:10MiB ETA:2m16s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 126MiB/1.5GiB(7%) CN:16 DL:10MiB ETA:2m16s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:58 2025 *** 
+===============================================================================
+[#7bb47a 138MiB/1.5GiB(8%) CN:16 DL:10MiB ETA:2m15s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 138MiB/1.5GiB(8%) CN:16 DL:10MiB ETA:2m15s]
+ *** Download Progress Summary as of Fri Dec 19 20:37:59 2025 *** 
+===============================================================================
+[#7bb47a 148MiB/1.5GiB(9%) CN:16 DL:10MiB ETA:2m14s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 148MiB/1.5GiB(9%) CN:16 DL:10MiB ETA:2m14s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:00 2025 *** 
+===============================================================================
+[#7bb47a 160MiB/1.5GiB(9%) CN:16 DL:10MiB ETA:2m15s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 160MiB/1.5GiB(9%) CN:16 DL:10MiB ETA:2m15s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:01 2025 *** 
+===============================================================================
+[#7bb47a 170MiB/1.5GiB(10%) CN:16 DL:10MiB ETA:2m14s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 170MiB/1.5GiB(10%) CN:16 DL:10MiB ETA:2m14s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:02 2025 *** 
+===============================================================================
+[#7bb47a 182MiB/1.5GiB(11%) CN:16 DL:10MiB ETA:2m11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 182MiB/1.5GiB(11%) CN:16 DL:10MiB ETA:2m11s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:03 2025 *** 
+===============================================================================
+[#7bb47a 192MiB/1.5GiB(11%) CN:16 DL:10MiB ETA:2m11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 192MiB/1.5GiB(11%) CN:16 DL:10MiB ETA:2m11s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:04 2025 *** 
+===============================================================================
+[#7bb47a 203MiB/1.5GiB(12%) CN:16 DL:10MiB ETA:2m11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 203MiB/1.5GiB(12%) CN:16 DL:10MiB ETA:2m11s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:05 2025 *** 
+===============================================================================
+[#7bb47a 213MiB/1.5GiB(13%) CN:16 DL:10MiB ETA:2m12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 213MiB/1.5GiB(13%) CN:16 DL:10MiB ETA:2m12s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:06 2025 *** 
+===============================================================================
+[#7bb47a 222MiB/1.5GiB(13%) CN:16 DL:10MiB ETA:2m9s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 222MiB/1.5GiB(13%) CN:16 DL:10MiB ETA:2m9s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:07 2025 *** 
+===============================================================================
+[#7bb47a 229MiB/1.5GiB(14%) CN:16 DL:10MiB ETA:2m15s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 229MiB/1.5GiB(14%) CN:16 DL:10MiB ETA:2m15s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:08 2025 *** 
+===============================================================================
+[#7bb47a 241MiB/1.5GiB(14%) CN:16 DL:10MiB ETA:2m13s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 241MiB/1.5GiB(14%) CN:16 DL:10MiB ETA:2m13s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:09 2025 *** 
+===============================================================================
+[#7bb47a 252MiB/1.5GiB(15%) CN:16 DL:10MiB ETA:2m12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 252MiB/1.5GiB(15%) CN:16 DL:10MiB ETA:2m12s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:10 2025 *** 
+===============================================================================
+[#7bb47a 263MiB/1.5GiB(16%) CN:16 DL:10MiB ETA:2m11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 263MiB/1.5GiB(16%) CN:16 DL:10MiB ETA:2m11s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:11 2025 *** 
+===============================================================================
+[#7bb47a 272MiB/1.5GiB(16%) CN:16 DL:10MiB ETA:2m13s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 272MiB/1.5GiB(16%) CN:16 DL:10MiB ETA:2m13s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:12 2025 *** 
+===============================================================================
+[#7bb47a 285MiB/1.5GiB(17%) CN:16 DL:10MiB ETA:2m9s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 285MiB/1.5GiB(17%) CN:16 DL:10MiB ETA:2m9s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:13 2025 *** 
+===============================================================================
+[#7bb47a 295MiB/1.5GiB(18%) CN:16 DL:10MiB ETA:2m9s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 295MiB/1.5GiB(18%) CN:16 DL:10MiB ETA:2m9s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:14 2025 *** 
+===============================================================================
+[#7bb47a 306MiB/1.5GiB(18%) CN:16 DL:10MiB ETA:2m8s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 306MiB/1.5GiB(18%) CN:16 DL:10MiB ETA:2m8s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:15 2025 *** 
+===============================================================================
+[#7bb47a 315MiB/1.5GiB(19%) CN:16 DL:10MiB ETA:2m5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 315MiB/1.5GiB(19%) CN:16 DL:10MiB ETA:2m5s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:16 2025 *** 
+===============================================================================
+[#7bb47a 327MiB/1.5GiB(20%) CN:16 DL:10MiB ETA:1m58s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 327MiB/1.5GiB(20%) CN:16 DL:10MiB ETA:1m58s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:17 2025 *** 
+===============================================================================
+[#7bb47a 334MiB/1.5GiB(20%) CN:16 DL:10MiB ETA:2m2s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 334MiB/1.5GiB(20%) CN:16 DL:10MiB ETA:2m2s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:18 2025 *** 
+===============================================================================
+[#7bb47a 346MiB/1.5GiB(21%) CN:16 DL:10MiB ETA:2m1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 346MiB/1.5GiB(21%) CN:16 DL:10MiB ETA:2m1s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:19 2025 *** 
+===============================================================================
+[#7bb47a 357MiB/1.5GiB(22%) CN:16 DL:10MiB ETA:2m]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 357MiB/1.5GiB(22%) CN:16 DL:10MiB ETA:2m]
+ *** Download Progress Summary as of Fri Dec 19 20:38:20 2025 *** 
+===============================================================================
+[#7bb47a 369MiB/1.5GiB(22%) CN:16 DL:10MiB ETA:1m56s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 369MiB/1.5GiB(22%) CN:16 DL:10MiB ETA:1m56s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:21 2025 *** 
+===============================================================================
+[#7bb47a 379MiB/1.5GiB(23%) CN:16 DL:10MiB ETA:1m56s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 379MiB/1.5GiB(23%) CN:16 DL:10MiB ETA:1m56s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:22 2025 *** 
+===============================================================================
+[#7bb47a 388MiB/1.5GiB(23%) CN:16 DL:10MiB ETA:1m58s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 388MiB/1.5GiB(23%) CN:16 DL:10MiB ETA:1m58s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:23 2025 *** 
+===============================================================================
+[#7bb47a 400MiB/1.5GiB(24%) CN:16 DL:10MiB ETA:1m55s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 400MiB/1.5GiB(24%) CN:16 DL:10MiB ETA:1m55s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:24 2025 *** 
+===============================================================================
+[#7bb47a 413MiB/1.5GiB(25%) CN:16 DL:10MiB ETA:1m51s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 413MiB/1.5GiB(25%) CN:16 DL:10MiB ETA:1m51s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:25 2025 *** 
+===============================================================================
+[#7bb47a 421MiB/1.5GiB(26%) CN:16 DL:10MiB ETA:1m55s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 421MiB/1.5GiB(26%) CN:16 DL:10MiB ETA:1m55s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:26 2025 *** 
+===============================================================================
+[#7bb47a 432MiB/1.5GiB(26%) CN:16 DL:10MiB ETA:1m49s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 432MiB/1.5GiB(26%) CN:16 DL:10MiB ETA:1m49s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:27 2025 *** 
+===============================================================================
+[#7bb47a 439MiB/1.5GiB(27%) CN:16 DL:10MiB ETA:1m53s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 439MiB/1.5GiB(27%) CN:16 DL:10MiB ETA:1m53s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:28 2025 *** 
+===============================================================================
+[#7bb47a 449MiB/1.5GiB(27%) CN:16 DL:10MiB ETA:1m53s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 449MiB/1.5GiB(27%) CN:16 DL:10MiB ETA:1m53s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:29 2025 *** 
+===============================================================================
+[#7bb47a 460MiB/1.5GiB(28%) CN:16 DL:10MiB ETA:1m52s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 460MiB/1.5GiB(28%) CN:16 DL:10MiB ETA:1m52s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:30 2025 *** 
+===============================================================================
+[#7bb47a 471MiB/1.5GiB(29%) CN:16 DL:10MiB ETA:1m50s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 471MiB/1.5GiB(29%) CN:16 DL:10MiB ETA:1m50s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:31 2025 *** 
+===============================================================================
+[#7bb47a 481MiB/1.5GiB(29%) CN:16 DL:10MiB ETA:1m50s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 481MiB/1.5GiB(29%) CN:16 DL:10MiB ETA:1m50s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:32 2025 *** 
+===============================================================================
+[#7bb47a 492MiB/1.5GiB(30%) CN:16 DL:10MiB ETA:1m50s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 492MiB/1.5GiB(30%) CN:16 DL:10MiB ETA:1m50s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:33 2025 *** 
+===============================================================================
+[#7bb47a 502MiB/1.5GiB(31%) CN:16 DL:10MiB ETA:1m48s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 502MiB/1.5GiB(31%) CN:16 DL:10MiB ETA:1m48s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:34 2025 *** 
+===============================================================================
+[#7bb47a 514MiB/1.5GiB(31%) CN:16 DL:10MiB ETA:1m48s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 514MiB/1.5GiB(31%) CN:16 DL:10MiB ETA:1m48s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:35 2025 *** 
+===============================================================================
+[#7bb47a 524MiB/1.5GiB(32%) CN:16 DL:10MiB ETA:1m45s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 524MiB/1.5GiB(32%) CN:16 DL:10MiB ETA:1m45s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:36 2025 *** 
+===============================================================================
+[#7bb47a 535MiB/1.5GiB(33%) CN:16 DL:10MiB ETA:1m44s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 535MiB/1.5GiB(33%) CN:16 DL:10MiB ETA:1m44s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:36 2025 *** 
+===============================================================================
+[#7bb47a 545MiB/1.5GiB(33%) CN:16 DL:10MiB ETA:1m39s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 545MiB/1.5GiB(33%) CN:16 DL:10MiB ETA:1m39s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:37 2025 *** 
+===============================================================================
+[#7bb47a 554MiB/1.5GiB(34%) CN:16 DL:10MiB ETA:1m40s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 554MiB/1.5GiB(34%) CN:16 DL:10MiB ETA:1m40s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:39 2025 *** 
+===============================================================================
+[#7bb47a 565MiB/1.5GiB(34%) CN:16 DL:10MiB ETA:1m40s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 565MiB/1.5GiB(34%) CN:16 DL:10MiB ETA:1m40s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:40 2025 *** 
+===============================================================================
+[#7bb47a 577MiB/1.5GiB(35%) CN:16 DL:10MiB ETA:1m39s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 577MiB/1.5GiB(35%) CN:16 DL:10MiB ETA:1m39s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:40 2025 *** 
+===============================================================================
+[#7bb47a 588MiB/1.5GiB(36%) CN:16 DL:10MiB ETA:1m35s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 588MiB/1.5GiB(36%) CN:16 DL:10MiB ETA:1m35s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:41 2025 *** 
+===============================================================================
+[#7bb47a 598MiB/1.5GiB(36%) CN:16 DL:10MiB ETA:1m36s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 598MiB/1.5GiB(36%) CN:16 DL:10MiB ETA:1m36s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:42 2025 *** 
+===============================================================================
+[#7bb47a 607MiB/1.5GiB(37%) CN:16 DL:10MiB ETA:1m37s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 607MiB/1.5GiB(37%) CN:16 DL:10MiB ETA:1m37s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:43 2025 *** 
+===============================================================================
+[#7bb47a 621MiB/1.5GiB(38%) CN:16 DL:10MiB ETA:1m31s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 621MiB/1.5GiB(38%) CN:16 DL:10MiB ETA:1m31s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:44 2025 *** 
+===============================================================================
+[#7bb47a 627MiB/1.5GiB(38%) CN:16 DL:10MiB ETA:1m35s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 627MiB/1.5GiB(38%) CN:16 DL:10MiB ETA:1m35s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:45 2025 *** 
+===============================================================================
+[#7bb47a 639MiB/1.5GiB(39%) CN:16 DL:10MiB ETA:1m33s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 639MiB/1.5GiB(39%) CN:16 DL:10MiB ETA:1m33s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:46 2025 *** 
+===============================================================================
+[#7bb47a 650MiB/1.5GiB(40%) CN:16 DL:10MiB ETA:1m34s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 650MiB/1.5GiB(40%) CN:16 DL:10MiB ETA:1m34s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:47 2025 *** 
+===============================================================================
+[#7bb47a 661MiB/1.5GiB(40%) CN:16 DL:10MiB ETA:1m29s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 661MiB/1.5GiB(40%) CN:16 DL:10MiB ETA:1m29s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:48 2025 *** 
+===============================================================================
+[#7bb47a 670MiB/1.5GiB(41%) CN:16 DL:10MiB ETA:1m30s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 670MiB/1.5GiB(41%) CN:16 DL:10MiB ETA:1m30s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:49 2025 *** 
+===============================================================================
+[#7bb47a 682MiB/1.5GiB(42%) CN:16 DL:10MiB ETA:1m28s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 682MiB/1.5GiB(42%) CN:16 DL:10MiB ETA:1m28s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:50 2025 *** 
+===============================================================================
+[#7bb47a 693MiB/1.5GiB(42%) CN:16 DL:10MiB ETA:1m27s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 693MiB/1.5GiB(42%) CN:16 DL:10MiB ETA:1m27s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:51 2025 *** 
+===============================================================================
+[#7bb47a 703MiB/1.5GiB(43%) CN:16 DL:10MiB ETA:1m25s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 703MiB/1.5GiB(43%) CN:16 DL:10MiB ETA:1m25s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:52 2025 *** 
+===============================================================================
+[#7bb47a 713MiB/1.5GiB(44%) CN:16 DL:10MiB ETA:1m24s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 713MiB/1.5GiB(44%) CN:16 DL:10MiB ETA:1m24s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:53 2025 *** 
+===============================================================================
+[#7bb47a 725MiB/1.5GiB(44%) CN:16 DL:10MiB ETA:1m23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 725MiB/1.5GiB(44%) CN:16 DL:10MiB ETA:1m23s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:54 2025 *** 
+===============================================================================
+[#7bb47a 733MiB/1.5GiB(45%) CN:16 DL:10MiB ETA:1m22s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 733MiB/1.5GiB(45%) CN:16 DL:10MiB ETA:1m22s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:55 2025 *** 
+===============================================================================
+[#7bb47a 743MiB/1.5GiB(45%) CN:16 DL:10MiB ETA:1m23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 743MiB/1.5GiB(45%) CN:16 DL:10MiB ETA:1m23s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:56 2025 *** 
+===============================================================================
+[#7bb47a 754MiB/1.5GiB(46%) CN:16 DL:10MiB ETA:1m22s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 754MiB/1.5GiB(46%) CN:16 DL:10MiB ETA:1m22s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:57 2025 *** 
+===============================================================================
+[#7bb47a 768MiB/1.5GiB(47%) CN:16 DL:10MiB ETA:1m18s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 768MiB/1.5GiB(47%) CN:16 DL:10MiB ETA:1m18s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:58 2025 *** 
+===============================================================================
+[#7bb47a 774MiB/1.5GiB(47%) CN:16 DL:10MiB ETA:1m20s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 774MiB/1.5GiB(47%) CN:16 DL:10MiB ETA:1m20s]
+ *** Download Progress Summary as of Fri Dec 19 20:38:59 2025 *** 
+===============================================================================
+[#7bb47a 787MiB/1.5GiB(48%) CN:16 DL:10MiB ETA:1m18s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 787MiB/1.5GiB(48%) CN:16 DL:10MiB ETA:1m18s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:00 2025 *** 
+===============================================================================
+[#7bb47a 795MiB/1.5GiB(49%) CN:16 DL:10MiB ETA:1m21s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 795MiB/1.5GiB(49%) CN:16 DL:10MiB ETA:1m21s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:01 2025 *** 
+===============================================================================
+[#7bb47a 806MiB/1.5GiB(49%) CN:16 DL:10MiB ETA:1m17s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 806MiB/1.5GiB(49%) CN:16 DL:10MiB ETA:1m17s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:02 2025 *** 
+===============================================================================
+[#7bb47a 817MiB/1.5GiB(50%) CN:16 DL:10MiB ETA:1m17s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 817MiB/1.5GiB(50%) CN:16 DL:10MiB ETA:1m17s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:03 2025 *** 
+===============================================================================
+[#7bb47a 828MiB/1.5GiB(51%) CN:16 DL:10MiB ETA:1m16s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 828MiB/1.5GiB(51%) CN:16 DL:10MiB ETA:1m16s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:04 2025 *** 
+===============================================================================
+[#7bb47a 838MiB/1.5GiB(51%) CN:16 DL:10MiB ETA:1m15s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 838MiB/1.5GiB(51%) CN:16 DL:10MiB ETA:1m15s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:05 2025 *** 
+===============================================================================
+[#7bb47a 851MiB/1.5GiB(52%) CN:16 DL:10MiB ETA:1m11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 851MiB/1.5GiB(52%) CN:16 DL:10MiB ETA:1m11s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:06 2025 *** 
+===============================================================================
+[#7bb47a 860MiB/1.5GiB(53%) CN:16 DL:10MiB ETA:1m13s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 860MiB/1.5GiB(53%) CN:16 DL:10MiB ETA:1m13s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:07 2025 *** 
+===============================================================================
+[#7bb47a 871MiB/1.5GiB(53%) CN:16 DL:10MiB ETA:1m10s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 871MiB/1.5GiB(53%) CN:16 DL:10MiB ETA:1m10s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:08 2025 *** 
+===============================================================================
+[#7bb47a 881MiB/1.5GiB(54%) CN:16 DL:10MiB ETA:1m10s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 881MiB/1.5GiB(54%) CN:16 DL:10MiB ETA:1m10s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:09 2025 *** 
+===============================================================================
+[#7bb47a 893MiB/1.5GiB(55%) CN:16 DL:10MiB ETA:1m7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 893MiB/1.5GiB(55%) CN:16 DL:10MiB ETA:1m7s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:10 2025 *** 
+===============================================================================
+[#7bb47a 902MiB/1.5GiB(55%) CN:16 DL:10MiB ETA:1m7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 902MiB/1.5GiB(55%) CN:16 DL:10MiB ETA:1m7s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:11 2025 *** 
+===============================================================================
+[#7bb47a 914MiB/1.5GiB(56%) CN:16 DL:10MiB ETA:1m5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 914MiB/1.5GiB(56%) CN:16 DL:10MiB ETA:1m5s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:12 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(57%) CN:16 DL:10MiB ETA:1m3s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(57%) CN:16 DL:10MiB ETA:1m3s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:13 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(57%) CN:16 DL:11MiB ETA:1m2s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(57%) CN:16 DL:11MiB ETA:1m2s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:14 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(58%) CN:16 DL:10MiB ETA:1m2s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(58%) CN:16 DL:10MiB ETA:1m2s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:15 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(59%) CN:16 DL:10MiB ETA:1m2s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(59%) CN:16 DL:10MiB ETA:1m2s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:16 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(59%) CN:16 DL:10MiB ETA:1m1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(59%) CN:16 DL:10MiB ETA:1m1s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:17 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(60%) CN:16 DL:10MiB ETA:1m1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(60%) CN:16 DL:10MiB ETA:1m1s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:18 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(60%) CN:16 DL:10MiB ETA:59s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(60%) CN:16 DL:10MiB ETA:59s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:19 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(61%) CN:16 DL:10MiB ETA:58s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(61%) CN:16 DL:10MiB ETA:58s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:20 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(62%) CN:16 DL:10MiB ETA:56s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(62%) CN:16 DL:10MiB ETA:56s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:21 2025 *** 
+===============================================================================
+[#7bb47a 0.9GiB/1.5GiB(62%) CN:16 DL:10MiB ETA:56s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 0.9GiB/1.5GiB(62%) CN:16 DL:10MiB ETA:56s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:22 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(63%) CN:16 DL:10MiB ETA:56s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(63%) CN:16 DL:10MiB ETA:56s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:23 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(64%) CN:16 DL:10MiB ETA:55s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(64%) CN:16 DL:10MiB ETA:55s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:24 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(64%) CN:16 DL:10MiB ETA:53s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(64%) CN:16 DL:10MiB ETA:53s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:25 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(65%) CN:16 DL:11MiB ETA:50s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(65%) CN:16 DL:11MiB ETA:50s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:26 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(66%) CN:16 DL:10MiB ETA:52s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(66%) CN:16 DL:10MiB ETA:52s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:27 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(66%) CN:16 DL:10MiB ETA:49s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(66%) CN:16 DL:10MiB ETA:49s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:28 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(67%) CN:16 DL:10MiB ETA:48s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(67%) CN:16 DL:10MiB ETA:48s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:29 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(68%) CN:16 DL:10MiB ETA:47s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(68%) CN:16 DL:10MiB ETA:47s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:30 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(68%) CN:16 DL:10MiB ETA:46s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(68%) CN:16 DL:10MiB ETA:46s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:31 2025 *** 
+===============================================================================
+[#7bb47a 1.0GiB/1.5GiB(69%) CN:16 DL:10MiB ETA:45s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.0GiB/1.5GiB(69%) CN:16 DL:10MiB ETA:45s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:32 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(70%) CN:16 DL:10MiB ETA:44s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(70%) CN:16 DL:10MiB ETA:44s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:33 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(70%) CN:16 DL:10MiB ETA:44s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(70%) CN:16 DL:10MiB ETA:44s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:34 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(71%) CN:16 DL:10MiB ETA:43s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(71%) CN:16 DL:10MiB ETA:43s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:35 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(72%) CN:16 DL:11MiB ETA:40s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(72%) CN:16 DL:11MiB ETA:40s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:36 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(72%) CN:16 DL:10MiB ETA:40s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(72%) CN:16 DL:10MiB ETA:40s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:37 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(73%) CN:16 DL:10MiB ETA:40s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(73%) CN:16 DL:10MiB ETA:40s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:38 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(74%) CN:16 DL:10MiB ETA:39s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(74%) CN:16 DL:10MiB ETA:39s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:39 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(74%) CN:16 DL:10MiB ETA:37s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(74%) CN:16 DL:10MiB ETA:37s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:40 2025 *** 
+===============================================================================
+[#7bb47a 1.1GiB/1.5GiB(75%) CN:16 DL:11MiB ETA:35s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.1GiB/1.5GiB(75%) CN:16 DL:11MiB ETA:35s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:41 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(76%) CN:15 DL:10MiB ETA:35s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(76%) CN:15 DL:10MiB ETA:35s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:42 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(76%) CN:14 DL:10MiB ETA:34s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(76%) CN:14 DL:10MiB ETA:34s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:43 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(77%) CN:13 DL:10MiB ETA:33s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(77%) CN:13 DL:10MiB ETA:33s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:44 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(78%) CN:13 DL:10MiB ETA:33s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(78%) CN:13 DL:10MiB ETA:33s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:45 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(78%) CN:13 DL:10MiB ETA:33s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(78%) CN:13 DL:10MiB ETA:33s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:46 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(79%) CN:12 DL:10MiB ETA:30s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(79%) CN:12 DL:10MiB ETA:30s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:47 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(79%) CN:12 DL:10MiB ETA:31s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(79%) CN:12 DL:10MiB ETA:31s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:48 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(80%) CN:12 DL:10MiB ETA:29s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(80%) CN:12 DL:10MiB ETA:29s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:49 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(81%) CN:12 DL:10MiB ETA:29s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(81%) CN:12 DL:10MiB ETA:29s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:50 2025 *** 
+===============================================================================
+[#7bb47a 1.2GiB/1.5GiB(81%) CN:12 DL:10MiB ETA:27s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.2GiB/1.5GiB(81%) CN:12 DL:10MiB ETA:27s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:51 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(82%) CN:12 DL:10MiB ETA:27s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(82%) CN:12 DL:10MiB ETA:27s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:52 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(83%) CN:12 DL:10MiB ETA:26s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(83%) CN:12 DL:10MiB ETA:26s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:53 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(84%) CN:12 DL:10MiB ETA:24s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(84%) CN:12 DL:10MiB ETA:24s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:54 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(84%) CN:12 DL:10MiB ETA:23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(84%) CN:12 DL:10MiB ETA:23s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:55 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(85%) CN:12 DL:10MiB ETA:23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(85%) CN:12 DL:10MiB ETA:23s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:56 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(86%) CN:12 DL:10MiB ETA:21s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(86%) CN:12 DL:10MiB ETA:21s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:57 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(86%) CN:12 DL:11MiB ETA:19s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(86%) CN:12 DL:11MiB ETA:19s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:58 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(87%) CN:12 DL:10MiB ETA:18s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(87%) CN:12 DL:10MiB ETA:18s]
+ *** Download Progress Summary as of Fri Dec 19 20:39:59 2025 *** 
+===============================================================================
+[#7bb47a 1.3GiB/1.5GiB(87%) CN:11 DL:10MiB ETA:18s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.3GiB/1.5GiB(87%) CN:11 DL:10MiB ETA:18s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:00 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(88%) CN:11 DL:10MiB ETA:16s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(88%) CN:11 DL:10MiB ETA:16s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:01 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(89%) CN:10 DL:11MiB ETA:15s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(89%) CN:10 DL:11MiB ETA:15s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:02 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(89%) CN:10 DL:11MiB ETA:14s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(89%) CN:10 DL:11MiB ETA:14s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:03 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(90%) CN:10 DL:10MiB ETA:14s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(90%) CN:10 DL:10MiB ETA:14s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:04 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(91%) CN:9 DL:11MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(91%) CN:9 DL:11MiB ETA:12s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:05 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(91%) CN:9 DL:10MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(91%) CN:9 DL:10MiB ETA:12s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:06 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(92%) CN:8 DL:10MiB ETA:11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(92%) CN:8 DL:10MiB ETA:11s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:07 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(93%) CN:7 DL:10MiB ETA:10s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(93%) CN:7 DL:10MiB ETA:10s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:08 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(93%) CN:7 DL:10MiB ETA:9s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(93%) CN:7 DL:10MiB ETA:9s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:09 2025 *** 
+===============================================================================
+[#7bb47a 1.4GiB/1.5GiB(94%) CN:6 DL:10MiB ETA:9s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.4GiB/1.5GiB(94%) CN:6 DL:10MiB ETA:9s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:10 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(95%) CN:6 DL:10MiB ETA:7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(95%) CN:6 DL:10MiB ETA:7s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:11 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(95%) CN:6 DL:9.9MiB ETA:7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(95%) CN:6 DL:9.9MiB ETA:7s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:12 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(96%) CN:6 DL:10MiB ETA:5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(96%) CN:6 DL:10MiB ETA:5s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:13 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(96%) CN:6 DL:10MiB ETA:4s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(96%) CN:6 DL:10MiB ETA:4s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:14 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(97%) CN:6 DL:10MiB ETA:3s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(97%) CN:6 DL:10MiB ETA:3s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:15 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(98%) CN:5 DL:10MiB ETA:2s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(98%) CN:5 DL:10MiB ETA:2s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:16 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(98%) CN:5 DL:10MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(98%) CN:5 DL:10MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:17 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:2 DL:9.9MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:2 DL:9.9MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:18 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:9.1MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:9.1MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:19 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:7.8MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:7.8MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:20 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:6.9MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:6.9MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:21 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:5.8MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:5.8MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:22 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:4.8MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:4.8MiB ETA:1s]
+ *** Download Progress Summary as of Fri Dec 19 20:40:23 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:4.1MiB]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:4.1MiB]
+ *** Download Progress Summary as of Fri Dec 19 20:40:24 2025 *** 
+===============================================================================
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:3.0MiB]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+-------------------------------------------------------------------------------
+
+[#7bb47a 1.5GiB/1.5GiB(99%) CN:1 DL:3.0MiB]
+
+12/19 20:40:25 [[1;32mNOTICE[0m] Download complete: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+7bb47a|OK  |    10MiB/s|/run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/loras/qwen-image-lightning/Qwen-Image-Lightning-4steps-V1.0.safetensors
+
+Status Legend:
+(OK):download completed.

@@ -1,0 +1,868 @@
+Caught Error while parsing environment variable 'http_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--http-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+Caught Error while parsing environment variable 'https_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--https-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+Caught Error while parsing environment variable 'all_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--all-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+
+12/21 16:53:37 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+12/21 16:53:37 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084712Z&X-Amz-Expires=3600&X-Amz-Signature=9c9144122fecd443c0751c2b1e195880e166bc969440ff128e78c7647a322b98&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=694406c035b0024cf6427254&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310432&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDQzMn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=gn5cfg1ONwVBflM%7E1QXy05uPzG1MfwYnw4%7ELfMdssa8lgWPgPep6VyAtCufWn46npu5f3wXqaJikC02%7EEQAL%7E8KMeUgeQpFbCJoPY2OwymR2xZDQlCW4IGBZjmk2mp0kTxc1swNNPAoQ6AOeztwqS7gek0b8r3VCUzkh0kGEqTz10BG927XZsZ5W-XJ6IzFqC0OL389YaSZpQ9I0ygDGZVKpqBAmjh3cIyGfVTU9ZQyoJDSK%7E%7EWlCBmHd-nu0FNTmVtr2VCrQO%7E8OcyjW3YVh-h-N55o00eYFQ9pE6aliSjWDITGRndASL9HAGVKDZHYpgUX%7EyYTgUuLWu20%7Eyv%7Exg__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:53:38 2025 *** 
+===============================================================================
+[#b5c38d 80KiB/1.1GiB(0%) CN:16 DL:567KiB ETA:36m16s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 80KiB/1.1GiB(0%) CN:16 DL:567KiB ETA:36m16s]
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#9 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084433Z&X-Amz-Expires=3600&X-Amz-Signature=66c2216808c89aecbc38551a31f2e53219b7874ab3a328cd25214a104942aaaf&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=694406c035b0024cf6427254&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310273&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDI3M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=v5PYgp9Kpz2tqWYwtoPHR7DZRC3lGIpgcovGt0pDcXAHOwpVOgDMVT944xXEzTBa5MXYr3f2oURlGDAzyCqUzhOwb4kNLbTHeuYShZ7W8pWP7SdMizRJvZb24zxixKb2%7ECbSvGibWT4jjxdpYm5arU8KXLmu8%7Eat%7Ewal6-1hjIYtwDHjUm%7EPKoob-xcC0FUBoWqV3W7JRsncqULlaWtc7YejIn4iLcuj5yt0x%7ExFsJ07QEaqzNpJ2C5nUoN0GfjsZZSNLbYnDB1JuiC4sJyOcwp1o3AFZJaGPynbmMGNnnEa0FbbDEnDmBLHjz2OnszCWGwZCdDUbviSedm5Obe8cA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#14 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085338Z&X-Amz-Expires=3600&X-Amz-Signature=31ac7c73b9a79833cf1841ad256d6a893f551f6c5472765c7d183e0f75165c59&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310818&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDgxOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=Dpa-8cFsaTvMgUs7UnaaaW5tWSsxDVSr2ES1XLL0-nd1Org-JSexA3gNBtM753dCffsIqngxnBUrlDdCFJrxfSRHAoVArYPMqr5PNBzf6G%7EZ4fkudCK2JXI60sIeY0mSeLV6J2FjfcdjWB-MaF8BApy7pUZCR0fut39YrhJKVqsF7MbCmX6oxgAtmQ%7EBKFxDPJ9lYtvEDBFAiP4F-PTjolJjcMbX9nt0TaF%7EknxSpD1fRtLCfecgpa8yu6s28g4CqLOaty82a2zdVOX%7Ex7ZZ62PWBA1WEph0Lc6mrlcOlVU705jYsiHoRn9kcP%7EaZf4XEvpMA6wum%7ETM0T%7EIEaW-HA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084433Z&X-Amz-Expires=3600&X-Amz-Signature=66c2216808c89aecbc38551a31f2e53219b7874ab3a328cd25214a104942aaaf&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=694406c035b0024cf6427254&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310273&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDI3M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=v5PYgp9Kpz2tqWYwtoPHR7DZRC3lGIpgcovGt0pDcXAHOwpVOgDMVT944xXEzTBa5MXYr3f2oURlGDAzyCqUzhOwb4kNLbTHeuYShZ7W8pWP7SdMizRJvZb24zxixKb2%7ECbSvGibWT4jjxdpYm5arU8KXLmu8%7Eat%7Ewal6-1hjIYtwDHjUm%7EPKoob-xcC0FUBoWqV3W7JRsncqULlaWtc7YejIn4iLcuj5yt0x%7ExFsJ07QEaqzNpJ2C5nUoN0GfjsZZSNLbYnDB1JuiC4sJyOcwp1o3AFZJaGPynbmMGNnnEa0FbbDEnDmBLHjz2OnszCWGwZCdDUbviSedm5Obe8cA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#13 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085338Z&X-Amz-Expires=3600&X-Amz-Signature=31ac7c73b9a79833cf1841ad256d6a893f551f6c5472765c7d183e0f75165c59&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310818&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDgxOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=Dpa-8cFsaTvMgUs7UnaaaW5tWSsxDVSr2ES1XLL0-nd1Org-JSexA3gNBtM753dCffsIqngxnBUrlDdCFJrxfSRHAoVArYPMqr5PNBzf6G%7EZ4fkudCK2JXI60sIeY0mSeLV6J2FjfcdjWB-MaF8BApy7pUZCR0fut39YrhJKVqsF7MbCmX6oxgAtmQ%7EBKFxDPJ9lYtvEDBFAiP4F-PTjolJjcMbX9nt0TaF%7EknxSpD1fRtLCfecgpa8yu6s28g4CqLOaty82a2zdVOX%7Ex7ZZ62PWBA1WEph0Lc6mrlcOlVU705jYsiHoRn9kcP%7EaZf4XEvpMA6wum%7ETM0T%7EIEaW-HA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#23 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085338Z&X-Amz-Expires=3600&X-Amz-Signature=31ac7c73b9a79833cf1841ad256d6a893f551f6c5472765c7d183e0f75165c59&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310818&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDgxOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=Dpa-8cFsaTvMgUs7UnaaaW5tWSsxDVSr2ES1XLL0-nd1Org-JSexA3gNBtM753dCffsIqngxnBUrlDdCFJrxfSRHAoVArYPMqr5PNBzf6G%7EZ4fkudCK2JXI60sIeY0mSeLV6J2FjfcdjWB-MaF8BApy7pUZCR0fut39YrhJKVqsF7MbCmX6oxgAtmQ%7EBKFxDPJ9lYtvEDBFAiP4F-PTjolJjcMbX9nt0TaF%7EknxSpD1fRtLCfecgpa8yu6s28g4CqLOaty82a2zdVOX%7Ex7ZZ62PWBA1WEph0Lc6mrlcOlVU705jYsiHoRn9kcP%7EaZf4XEvpMA6wum%7ETM0T%7EIEaW-HA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084911Z&X-Amz-Expires=3600&X-Amz-Signature=d498661f2d70f4f81655433c5579e9e4316da94672071b285b2978faa92460a5&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=63e6d30fb6a40bf941e48e05&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310551&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDU1MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=ferNMBNcI1CQufVONsuBzFAz-4qEV4Jb4fiP0zIf2FIc%7EjxnFWHLjURle24JSyP9bDNMhulDM9tO5b%7E4k-viYbBPEODMmoMeR0TEy3ED1bQzEMPsDEt454iwO9Az9TJK94jzb1APUXtfjUxUrV6LOtGJmSZazZWv9cUKnOKYSvnbCeZqL64dcArCIGZ4Uiunpd1xHnGN6IqnuCFRBzG0kjT1q9yfPgIQZBTe2pmKqzkVF%7E5eat%7E6Kif%7EFMy9i8FA9HrvNozoaDsCXmE-fdsf4FGvhLCh7bp0yvEDhRo00kFe6XZc7cYxTFuncgkeqUbeHo79m4Bbu2paDnB2mxT2MA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#18 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T083649Z&X-Amz-Expires=3600&X-Amz-Signature=8bc15e7c982749c6321acd0f57329177207706eeb0bd9970f046f25bbb816895&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=674c4344e4a48f0f980356c8&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766309809&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMwOTgwOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=EETlRtl%7EesRYiY9s6nEssml6kQ7d7LHlwZMk6bS5M%7EW80Q%7Ezk1Fauq%7Eo4jJUvFQj3RxmM3YKU30gjhgAiY3RIHiiU99LkBemmCer414a7RRDApcqVI85feby3JxisGFmKy6CzpDJttHRzXGiO4oOETs1nH88AUcbiZvI21ueZgXlNTdxTNs-aRiPx4m4VhjZATFzCnx1aEXPd9-4s8wtdhrFXME7S3yRe3xGCXeoG48-ACqQ0WcPCoYIIJzfdCN7XUDrOYrjRxjbTvIUM5RMHpNgvzlVELNQNlqgOpu9nIyTKENTAxAoGZeKs0kT-UCtVIhs11Sz-4hWgGvSgr-ATQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#19 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084712Z&X-Amz-Expires=3600&X-Amz-Signature=9c9144122fecd443c0751c2b1e195880e166bc969440ff128e78c7647a322b98&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=694406c035b0024cf6427254&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310432&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDQzMn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=gn5cfg1ONwVBflM%7E1QXy05uPzG1MfwYnw4%7ELfMdssa8lgWPgPep6VyAtCufWn46npu5f3wXqaJikC02%7EEQAL%7E8KMeUgeQpFbCJoPY2OwymR2xZDQlCW4IGBZjmk2mp0kTxc1swNNPAoQ6AOeztwqS7gek0b8r3VCUzkh0kGEqTz10BG927XZsZ5W-XJ6IzFqC0OL389YaSZpQ9I0ygDGZVKpqBAmjh3cIyGfVTU9ZQyoJDSK%7E%7EWlCBmHd-nu0FNTmVtr2VCrQO%7E8OcyjW3YVh-h-N55o00eYFQ9pE6aliSjWDITGRndASL9HAGVKDZHYpgUX%7EyYTgUuLWu20%7Eyv%7Exg__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:38 [[1;32mNOTICE[0m] CUID#21 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084433Z&X-Amz-Expires=3600&X-Amz-Signature=66c2216808c89aecbc38551a31f2e53219b7874ab3a328cd25214a104942aaaf&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=694406c035b0024cf6427254&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310273&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDI3M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=v5PYgp9Kpz2tqWYwtoPHR7DZRC3lGIpgcovGt0pDcXAHOwpVOgDMVT944xXEzTBa5MXYr3f2oURlGDAzyCqUzhOwb4kNLbTHeuYShZ7W8pWP7SdMizRJvZb24zxixKb2%7ECbSvGibWT4jjxdpYm5arU8KXLmu8%7Eat%7Ewal6-1hjIYtwDHjUm%7EPKoob-xcC0FUBoWqV3W7JRsncqULlaWtc7YejIn4iLcuj5yt0x%7ExFsJ07QEaqzNpJ2C5nUoN0GfjsZZSNLbYnDB1JuiC4sJyOcwp1o3AFZJaGPynbmMGNnnEa0FbbDEnDmBLHjz2OnszCWGwZCdDUbviSedm5Obe8cA__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:53:39 2025 *** 
+===============================================================================
+[#b5c38d 5.6MiB/1.1GiB(0%) CN:16 DL:4.9MiB ETA:4m]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 5.6MiB/1.1GiB(0%) CN:16 DL:4.9MiB ETA:4m]
+
+12/21 16:53:39 [[1;32mNOTICE[0m] CUID#20 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085339Z&X-Amz-Expires=3600&X-Amz-Signature=ddac9731c2f1d0e8b8da040ac24742c9ec76e5e427b03f2de7e5ca57badb689e&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310819&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDgxOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=VZnZaeCqX9Lt2Or8eOD-l7tShTOcDAOHXpwA7o%7EPx5SXxY7jQK9epFw-HXM8lXaVZP1E36ubnvkcSDoXw1HVfXOZst7-DypAfo02UOxpYkswOPyOyLsEQfY9G7rBRd9nOZXZwOviBJN6eRBSd13p9UlKTocD%7EYdaJdz%7E9mGHeRA0HEqcsX-FOGyHPy6JbbyMR-%7EKchIBZplTb2CW2rrrlXpWFGi9Xp8z1vBbxWEBBkSzI-SuvdvDx0an4vw8pboxZlF0FHPuEbts5DCZgpP5IHA5GvOh3tZO46AOubneDMefawUjRvpjkDDT-uNkHlEWPhUJjUNYo8Mhp6eKill9iQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:40 [[1;32mNOTICE[0m] CUID#22 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084910Z&X-Amz-Expires=3600&X-Amz-Signature=49e9b8d0a8cabb508b26ca2953a265f5a1d3a12a7580dc46d4d86af578c8102f&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=66b61d120203ac7c595b8427&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310550&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDU1MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=ZGEAKOucZy4qzPj5K338VB%7ENSLtIu5IaqdTptkRFGTfewSHBomvFk%7E05Ew1S8JZ9e4uv783wiESS8T6ijQtdImAGoiG8BxHMmSxmgaxvy2F2PodIa5LUUcbFltlo6iJWBndirj15LGvHWtuDbnUF2GnIRQM5x3Cdjz2RR7Nu8FVcjMD11j6qLOkkSY9PAQPJrIbVH%7EFXOF-Rk61O6BGoEYEZiVoeaNBwa2AcYIgsxEYsiZVLKIhhHpMhaij-xwgRgqpk-N0WCir%7E1iCA7ZWq3UWHgu8wtp6X8bm63IJceg-VnC0-KSkS-%7ESZMbO3Bf-PoRIwsdnIU158ifePupzLLA__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:40 [[1;32mNOTICE[0m] CUID#16 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085339Z&X-Amz-Expires=3600&X-Amz-Signature=ddac9731c2f1d0e8b8da040ac24742c9ec76e5e427b03f2de7e5ca57badb689e&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310819&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDgxOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=VZnZaeCqX9Lt2Or8eOD-l7tShTOcDAOHXpwA7o%7EPx5SXxY7jQK9epFw-HXM8lXaVZP1E36ubnvkcSDoXw1HVfXOZst7-DypAfo02UOxpYkswOPyOyLsEQfY9G7rBRd9nOZXZwOviBJN6eRBSd13p9UlKTocD%7EYdaJdz%7E9mGHeRA0HEqcsX-FOGyHPy6JbbyMR-%7EKchIBZplTb2CW2rrrlXpWFGi9Xp8z1vBbxWEBBkSzI-SuvdvDx0an4vw8pboxZlF0FHPuEbts5DCZgpP5IHA5GvOh3tZO46AOubneDMefawUjRvpjkDDT-uNkHlEWPhUJjUNYo8Mhp6eKill9iQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:40 [[1;32mNOTICE[0m] CUID#15 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085339Z&X-Amz-Expires=3600&X-Amz-Signature=ddac9731c2f1d0e8b8da040ac24742c9ec76e5e427b03f2de7e5ca57badb689e&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310819&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDgxOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=VZnZaeCqX9Lt2Or8eOD-l7tShTOcDAOHXpwA7o%7EPx5SXxY7jQK9epFw-HXM8lXaVZP1E36ubnvkcSDoXw1HVfXOZst7-DypAfo02UOxpYkswOPyOyLsEQfY9G7rBRd9nOZXZwOviBJN6eRBSd13p9UlKTocD%7EYdaJdz%7E9mGHeRA0HEqcsX-FOGyHPy6JbbyMR-%7EKchIBZplTb2CW2rrrlXpWFGi9Xp8z1vBbxWEBBkSzI-SuvdvDx0an4vw8pboxZlF0FHPuEbts5DCZgpP5IHA5GvOh3tZO46AOubneDMefawUjRvpjkDDT-uNkHlEWPhUJjUNYo8Mhp6eKill9iQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:53:40 2025 *** 
+===============================================================================
+[#b5c38d 16MiB/1.1GiB(1%) CN:16 DL:7.4MiB ETA:2m38s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 16MiB/1.1GiB(1%) CN:16 DL:7.4MiB ETA:2m38s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:41 2025 *** 
+===============================================================================
+[#b5c38d 21MiB/1.1GiB(1%) CN:16 DL:6.7MiB ETA:2m56s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 21MiB/1.1GiB(1%) CN:16 DL:6.7MiB ETA:2m56s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:42 2025 *** 
+===============================================================================
+[#b5c38d 35MiB/1.1GiB(2%) CN:16 DL:8.5MiB ETA:2m17s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 35MiB/1.1GiB(2%) CN:16 DL:8.5MiB ETA:2m17s]
+
+12/21 16:53:42 [[1;32mNOTICE[0m] CUID#17 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085341Z&X-Amz-Expires=3600&X-Amz-Signature=88e093d8eaa207e10acd47c753fa7ffb6f2c1929b6f35ce597062ae24e9c132f&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310821&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDgyMX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=NfKLGf7zqGzqPGLZ9bKlT7HITKEpQR2DGWjpVZ06RnABlTJnZlx8bYN1zTr-%7EGX8M4Z1he-6xfCn29C0XIOM9quRzmAuX4l7cDPAqXmnVX5jOBUY3hO9lB5d2QR3PNu8rxrVdoCpy-7g8T0lNMXssGIi-fXYMJV96J-x7G6GLmXqsqG-PcX9II-M17XhQblV%7ErUkv-aLrAxJSQ7u9tlxW3La92vJQ1FtK8eCgDo8iYos5hKc9eKur-FB4jsQ0-CLjrj5sPFu2S4EQO%7EZ%7EwD9z2azf1kc40TJZKmyUch8e3ucu-xzprl10KCVDVopOQQ%7E59zIS0h8x94Kf8p-ii8zSg__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:42 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/badc2656bc63a68213b934144f5f63edfcc12e41eeead464512b7fa175631d72?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084433Z&X-Amz-Expires=3600&X-Amz-Signature=f6aa82dfa953b5c573d68290c1a7b330db7e1a6c320ff387f0eb05ffd91a4dbf&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=674c4344e4a48f0f980356c8&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27clip_vision_h.safetensors%3B+filename%3D%22clip_vision_h.safetensors%22%3B&x-id=GetObject&Expires=1766310273&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDI3M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvYmFkYzI2NTZiYzYzYTY4MjEzYjkzNDE0NGY1ZjYzZWRmY2MxMmU0MWVlZWFkNDY0NTEyYjdmYTE3NTYzMWQ3MioifV19&Signature=v5PYgp9Kpz2tqWYwtoPHR7DZRC3lGIpgcovGt0pDcXAHOwpVOgDMVT944xXEzTBa5MXYr3f2oURlGDAzyCqUzhOwb4kNLbTHeuYShZ7W8pWP7SdMizRJvZb24zxixKb2%7ECbSvGibWT4jjxdpYm5arU8KXLmu8%7Eat%7Ewal6-1hjIYtwDHjUm%7EPKoob-xcC0FUBoWqV3W7JRsncqULlaWtc7YejIn4iLcuj5yt0x%7ExFsJ07QEaqzNpJ2C5nUoN0GfjsZZSNLbYnDB1JuiC4sJyOcwp1o3AFZJaGPynbmMGNnnEa0FbbDEnDmBLHjz2OnszCWGwZCdDUbviSedm5Obe8cA__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:53:43 2025 *** 
+===============================================================================
+[#b5c38d 46MiB/1.1GiB(3%) CN:16 DL:9.0MiB ETA:2m8s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 46MiB/1.1GiB(3%) CN:16 DL:9.0MiB ETA:2m8s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:44 2025 *** 
+===============================================================================
+[#b5c38d 57MiB/1.1GiB(4%) CN:16 DL:9.3MiB ETA:2m2s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 57MiB/1.1GiB(4%) CN:16 DL:9.3MiB ETA:2m2s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:45 2025 *** 
+===============================================================================
+[#b5c38d 68MiB/1.1GiB(5%) CN:16 DL:9.6MiB ETA:1m58s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 68MiB/1.1GiB(5%) CN:16 DL:9.6MiB ETA:1m58s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:46 2025 *** 
+===============================================================================
+[#b5c38d 79MiB/1.1GiB(6%) CN:16 DL:9.7MiB ETA:1m55s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 79MiB/1.1GiB(6%) CN:16 DL:9.7MiB ETA:1m55s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:47 2025 *** 
+===============================================================================
+[#b5c38d 89MiB/1.1GiB(7%) CN:16 DL:9.9MiB ETA:1m52s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 89MiB/1.1GiB(7%) CN:16 DL:9.9MiB ETA:1m52s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:48 2025 *** 
+===============================================================================
+[#b5c38d 101MiB/1.1GiB(8%) CN:16 DL:10MiB ETA:1m41s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 101MiB/1.1GiB(8%) CN:16 DL:10MiB ETA:1m41s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:49 2025 *** 
+===============================================================================
+[#b5c38d 114MiB/1.1GiB(9%) CN:16 DL:11MiB ETA:1m34s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 114MiB/1.1GiB(9%) CN:16 DL:11MiB ETA:1m34s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:50 2025 *** 
+===============================================================================
+[#b5c38d 123MiB/1.1GiB(10%) CN:16 DL:11MiB ETA:1m34s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 123MiB/1.1GiB(10%) CN:16 DL:11MiB ETA:1m34s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:51 2025 *** 
+===============================================================================
+[#b5c38d 133MiB/1.1GiB(11%) CN:16 DL:10MiB ETA:1m38s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 133MiB/1.1GiB(11%) CN:16 DL:10MiB ETA:1m38s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:52 2025 *** 
+===============================================================================
+[#b5c38d 145MiB/1.1GiB(12%) CN:16 DL:11MiB ETA:1m35s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 145MiB/1.1GiB(12%) CN:16 DL:11MiB ETA:1m35s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:53 2025 *** 
+===============================================================================
+[#b5c38d 157MiB/1.1GiB(13%) CN:16 DL:11MiB ETA:1m33s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 157MiB/1.1GiB(13%) CN:16 DL:11MiB ETA:1m33s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:54 2025 *** 
+===============================================================================
+[#b5c38d 167MiB/1.1GiB(13%) CN:16 DL:11MiB ETA:1m32s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 167MiB/1.1GiB(13%) CN:16 DL:11MiB ETA:1m32s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:55 2025 *** 
+===============================================================================
+[#b5c38d 177MiB/1.1GiB(14%) CN:16 DL:11MiB ETA:1m32s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 177MiB/1.1GiB(14%) CN:16 DL:11MiB ETA:1m32s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:56 2025 *** 
+===============================================================================
+[#b5c38d 188MiB/1.1GiB(15%) CN:16 DL:11MiB ETA:1m31s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 188MiB/1.1GiB(15%) CN:16 DL:11MiB ETA:1m31s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:57 2025 *** 
+===============================================================================
+[#b5c38d 200MiB/1.1GiB(16%) CN:16 DL:11MiB ETA:1m31s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 200MiB/1.1GiB(16%) CN:16 DL:11MiB ETA:1m31s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:58 2025 *** 
+===============================================================================
+[#b5c38d 211MiB/1.1GiB(17%) CN:16 DL:11MiB ETA:1m29s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 211MiB/1.1GiB(17%) CN:16 DL:11MiB ETA:1m29s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:59 2025 *** 
+===============================================================================
+[#b5c38d 222MiB/1.1GiB(18%) CN:16 DL:10MiB ETA:1m30s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 222MiB/1.1GiB(18%) CN:16 DL:10MiB ETA:1m30s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:00 2025 *** 
+===============================================================================
+[#b5c38d 233MiB/1.1GiB(19%) CN:16 DL:11MiB ETA:1m27s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 233MiB/1.1GiB(19%) CN:16 DL:11MiB ETA:1m27s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:01 2025 *** 
+===============================================================================
+[#b5c38d 241MiB/1.1GiB(20%) CN:16 DL:10MiB ETA:1m28s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 241MiB/1.1GiB(20%) CN:16 DL:10MiB ETA:1m28s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:02 2025 *** 
+===============================================================================
+[#b5c38d 255MiB/1.1GiB(21%) CN:16 DL:11MiB ETA:1m25s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 255MiB/1.1GiB(21%) CN:16 DL:11MiB ETA:1m25s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:03 2025 *** 
+===============================================================================
+[#b5c38d 266MiB/1.1GiB(22%) CN:16 DL:10MiB ETA:1m25s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 266MiB/1.1GiB(22%) CN:16 DL:10MiB ETA:1m25s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:04 2025 *** 
+===============================================================================
+[#b5c38d 276MiB/1.1GiB(22%) CN:16 DL:10MiB ETA:1m24s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 276MiB/1.1GiB(22%) CN:16 DL:10MiB ETA:1m24s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:05 2025 *** 
+===============================================================================
+[#b5c38d 287MiB/1.1GiB(23%) CN:16 DL:10MiB ETA:1m23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 287MiB/1.1GiB(23%) CN:16 DL:10MiB ETA:1m23s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:06 2025 *** 
+===============================================================================
+[#b5c38d 298MiB/1.1GiB(24%) CN:16 DL:11MiB ETA:1m22s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 298MiB/1.1GiB(24%) CN:16 DL:11MiB ETA:1m22s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:07 2025 *** 
+===============================================================================
+[#b5c38d 309MiB/1.1GiB(25%) CN:16 DL:11MiB ETA:1m21s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 309MiB/1.1GiB(25%) CN:16 DL:11MiB ETA:1m21s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:08 2025 *** 
+===============================================================================
+[#b5c38d 320MiB/1.1GiB(26%) CN:16 DL:11MiB ETA:1m20s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 320MiB/1.1GiB(26%) CN:16 DL:11MiB ETA:1m20s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:09 2025 *** 
+===============================================================================
+[#b5c38d 331MiB/1.1GiB(27%) CN:16 DL:10MiB ETA:1m20s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 331MiB/1.1GiB(27%) CN:16 DL:10MiB ETA:1m20s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:10 2025 *** 
+===============================================================================
+[#b5c38d 342MiB/1.1GiB(28%) CN:16 DL:11MiB ETA:1m17s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 342MiB/1.1GiB(28%) CN:16 DL:11MiB ETA:1m17s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:11 2025 *** 
+===============================================================================
+[#b5c38d 350MiB/1.1GiB(29%) CN:16 DL:10MiB ETA:1m18s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 350MiB/1.1GiB(29%) CN:16 DL:10MiB ETA:1m18s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:12 2025 *** 
+===============================================================================
+[#b5c38d 360MiB/1.1GiB(29%) CN:16 DL:10MiB ETA:1m19s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 360MiB/1.1GiB(29%) CN:16 DL:10MiB ETA:1m19s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:13 2025 *** 
+===============================================================================
+[#b5c38d 371MiB/1.1GiB(30%) CN:16 DL:10MiB ETA:1m18s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 371MiB/1.1GiB(30%) CN:16 DL:10MiB ETA:1m18s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:14 2025 *** 
+===============================================================================
+[#b5c38d 382MiB/1.1GiB(31%) CN:16 DL:10MiB ETA:1m16s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 382MiB/1.1GiB(31%) CN:16 DL:10MiB ETA:1m16s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:15 2025 *** 
+===============================================================================
+[#b5c38d 393MiB/1.1GiB(32%) CN:16 DL:10MiB ETA:1m15s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 393MiB/1.1GiB(32%) CN:16 DL:10MiB ETA:1m15s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:16 2025 *** 
+===============================================================================
+[#b5c38d 405MiB/1.1GiB(33%) CN:16 DL:10MiB ETA:1m14s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 405MiB/1.1GiB(33%) CN:16 DL:10MiB ETA:1m14s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:17 2025 *** 
+===============================================================================
+[#b5c38d 418MiB/1.1GiB(34%) CN:16 DL:10MiB ETA:1m11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 418MiB/1.1GiB(34%) CN:16 DL:10MiB ETA:1m11s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:18 2025 *** 
+===============================================================================
+[#b5c38d 426MiB/1.1GiB(35%) CN:16 DL:10MiB ETA:1m12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 426MiB/1.1GiB(35%) CN:16 DL:10MiB ETA:1m12s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:19 2025 *** 
+===============================================================================
+[#b5c38d 438MiB/1.1GiB(36%) CN:16 DL:10MiB ETA:1m11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 438MiB/1.1GiB(36%) CN:16 DL:10MiB ETA:1m11s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:20 2025 *** 
+===============================================================================
+[#b5c38d 448MiB/1.1GiB(37%) CN:16 DL:10MiB ETA:1m10s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 448MiB/1.1GiB(37%) CN:16 DL:10MiB ETA:1m10s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:21 2025 *** 
+===============================================================================
+[#b5c38d 459MiB/1.1GiB(38%) CN:16 DL:10MiB ETA:1m7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 459MiB/1.1GiB(38%) CN:16 DL:10MiB ETA:1m7s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:22 2025 *** 
+===============================================================================
+[#b5c38d 468MiB/1.1GiB(38%) CN:16 DL:10MiB ETA:1m7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 468MiB/1.1GiB(38%) CN:16 DL:10MiB ETA:1m7s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:23 2025 *** 
+===============================================================================
+[#b5c38d 480MiB/1.1GiB(39%) CN:16 DL:10MiB ETA:1m6s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 480MiB/1.1GiB(39%) CN:16 DL:10MiB ETA:1m6s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:24 2025 *** 
+===============================================================================
+[#b5c38d 490MiB/1.1GiB(40%) CN:16 DL:10MiB ETA:1m5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 490MiB/1.1GiB(40%) CN:16 DL:10MiB ETA:1m5s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:25 2025 *** 
+===============================================================================
+[#b5c38d 502MiB/1.1GiB(41%) CN:16 DL:10MiB ETA:1m4s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 502MiB/1.1GiB(41%) CN:16 DL:10MiB ETA:1m4s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:25 2025 *** 
+===============================================================================
+[#b5c38d 513MiB/1.1GiB(42%) CN:16 DL:10MiB ETA:1m4s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 513MiB/1.1GiB(42%) CN:16 DL:10MiB ETA:1m4s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:26 2025 *** 
+===============================================================================
+[#b5c38d 524MiB/1.1GiB(43%) CN:16 DL:10MiB ETA:1m2s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 524MiB/1.1GiB(43%) CN:16 DL:10MiB ETA:1m2s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:27 2025 *** 
+===============================================================================
+[#b5c38d 534MiB/1.1GiB(44%) CN:16 DL:10MiB ETA:1m1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 534MiB/1.1GiB(44%) CN:16 DL:10MiB ETA:1m1s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:28 2025 *** 
+===============================================================================
+[#b5c38d 546MiB/1.1GiB(45%) CN:16 DL:10MiB ETA:1m]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 546MiB/1.1GiB(45%) CN:16 DL:10MiB ETA:1m]
+ *** Download Progress Summary as of Sun Dec 21 16:54:29 2025 *** 
+===============================================================================
+[#b5c38d 556MiB/1.1GiB(46%) CN:16 DL:10MiB ETA:1m]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 556MiB/1.1GiB(46%) CN:16 DL:10MiB ETA:1m]
+ *** Download Progress Summary as of Sun Dec 21 16:54:30 2025 *** 
+===============================================================================
+[#b5c38d 568MiB/1.1GiB(47%) CN:16 DL:11MiB ETA:56s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 568MiB/1.1GiB(47%) CN:16 DL:11MiB ETA:56s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:31 2025 *** 
+===============================================================================
+[#b5c38d 576MiB/1.1GiB(47%) CN:16 DL:10MiB ETA:58s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 576MiB/1.1GiB(47%) CN:16 DL:10MiB ETA:58s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:32 2025 *** 
+===============================================================================
+[#b5c38d 590MiB/1.1GiB(48%) CN:16 DL:11MiB ETA:55s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 590MiB/1.1GiB(48%) CN:16 DL:11MiB ETA:55s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:33 2025 *** 
+===============================================================================
+[#b5c38d 598MiB/1.1GiB(49%) CN:16 DL:10MiB ETA:56s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 598MiB/1.1GiB(49%) CN:16 DL:10MiB ETA:56s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:34 2025 *** 
+===============================================================================
+[#b5c38d 609MiB/1.1GiB(50%) CN:16 DL:10MiB ETA:54s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 609MiB/1.1GiB(50%) CN:16 DL:10MiB ETA:54s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:35 2025 *** 
+===============================================================================
+[#b5c38d 620MiB/1.1GiB(51%) CN:16 DL:10MiB ETA:53s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 620MiB/1.1GiB(51%) CN:16 DL:10MiB ETA:53s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:36 2025 *** 
+===============================================================================
+[#b5c38d 631MiB/1.1GiB(52%) CN:16 DL:10MiB ETA:53s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 631MiB/1.1GiB(52%) CN:16 DL:10MiB ETA:53s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:37 2025 *** 
+===============================================================================
+[#b5c38d 641MiB/1.1GiB(53%) CN:16 DL:10MiB ETA:52s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 641MiB/1.1GiB(53%) CN:16 DL:10MiB ETA:52s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:38 2025 *** 
+===============================================================================
+[#b5c38d 653MiB/1.1GiB(54%) CN:16 DL:10MiB ETA:51s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 653MiB/1.1GiB(54%) CN:16 DL:10MiB ETA:51s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:39 2025 *** 
+===============================================================================
+[#b5c38d 665MiB/1.1GiB(55%) CN:16 DL:10MiB ETA:49s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 665MiB/1.1GiB(55%) CN:16 DL:10MiB ETA:49s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:40 2025 *** 
+===============================================================================
+[#b5c38d 673MiB/1.1GiB(55%) CN:16 DL:10MiB ETA:49s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 673MiB/1.1GiB(55%) CN:16 DL:10MiB ETA:49s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:41 2025 *** 
+===============================================================================
+[#b5c38d 684MiB/1.1GiB(56%) CN:16 DL:10MiB ETA:47s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 684MiB/1.1GiB(56%) CN:16 DL:10MiB ETA:47s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:42 2025 *** 
+===============================================================================
+[#b5c38d 694MiB/1.1GiB(57%) CN:16 DL:10MiB ETA:47s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 694MiB/1.1GiB(57%) CN:16 DL:10MiB ETA:47s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:43 2025 *** 
+===============================================================================
+[#b5c38d 708MiB/1.1GiB(58%) CN:16 DL:11MiB ETA:44s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 708MiB/1.1GiB(58%) CN:16 DL:11MiB ETA:44s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:44 2025 *** 
+===============================================================================
+[#b5c38d 717MiB/1.1GiB(59%) CN:16 DL:10MiB ETA:45s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 717MiB/1.1GiB(59%) CN:16 DL:10MiB ETA:45s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:45 2025 *** 
+===============================================================================
+[#b5c38d 728MiB/1.1GiB(60%) CN:16 DL:10MiB ETA:44s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 728MiB/1.1GiB(60%) CN:16 DL:10MiB ETA:44s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:46 2025 *** 
+===============================================================================
+[#b5c38d 738MiB/1.1GiB(61%) CN:16 DL:10MiB ETA:43s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 738MiB/1.1GiB(61%) CN:16 DL:10MiB ETA:43s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:47 2025 *** 
+===============================================================================
+[#b5c38d 751MiB/1.1GiB(62%) CN:16 DL:10MiB ETA:41s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 751MiB/1.1GiB(62%) CN:16 DL:10MiB ETA:41s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:48 2025 *** 
+===============================================================================
+[#b5c38d 761MiB/1.1GiB(63%) CN:16 DL:10MiB ETA:41s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 761MiB/1.1GiB(63%) CN:16 DL:10MiB ETA:41s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:49 2025 *** 
+===============================================================================
+[#b5c38d 773MiB/1.1GiB(64%) CN:16 DL:10MiB ETA:39s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 773MiB/1.1GiB(64%) CN:16 DL:10MiB ETA:39s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:50 2025 *** 
+===============================================================================
+[#b5c38d 782MiB/1.1GiB(64%) CN:16 DL:11MiB ETA:38s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 782MiB/1.1GiB(64%) CN:16 DL:11MiB ETA:38s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:51 2025 *** 
+===============================================================================
+[#b5c38d 795MiB/1.1GiB(65%) CN:16 DL:11MiB ETA:36s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 795MiB/1.1GiB(65%) CN:16 DL:11MiB ETA:36s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:52 2025 *** 
+===============================================================================
+[#b5c38d 802MiB/1.1GiB(66%) CN:16 DL:10MiB ETA:37s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 802MiB/1.1GiB(66%) CN:16 DL:10MiB ETA:37s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:53 2025 *** 
+===============================================================================
+[#b5c38d 815MiB/1.1GiB(67%) CN:16 DL:10MiB ETA:36s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 815MiB/1.1GiB(67%) CN:16 DL:10MiB ETA:36s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:54 2025 *** 
+===============================================================================
+[#b5c38d 825MiB/1.1GiB(68%) CN:16 DL:10MiB ETA:34s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 825MiB/1.1GiB(68%) CN:16 DL:10MiB ETA:34s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:55 2025 *** 
+===============================================================================
+[#b5c38d 837MiB/1.1GiB(69%) CN:16 DL:10MiB ETA:34s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 837MiB/1.1GiB(69%) CN:16 DL:10MiB ETA:34s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:56 2025 *** 
+===============================================================================
+[#b5c38d 848MiB/1.1GiB(70%) CN:16 DL:10MiB ETA:32s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 848MiB/1.1GiB(70%) CN:16 DL:10MiB ETA:32s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:57 2025 *** 
+===============================================================================
+[#b5c38d 859MiB/1.1GiB(71%) CN:16 DL:10MiB ETA:31s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 859MiB/1.1GiB(71%) CN:16 DL:10MiB ETA:31s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:58 2025 *** 
+===============================================================================
+[#b5c38d 871MiB/1.1GiB(72%) CN:15 DL:11MiB ETA:30s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 871MiB/1.1GiB(72%) CN:15 DL:11MiB ETA:30s]
+ *** Download Progress Summary as of Sun Dec 21 16:54:59 2025 *** 
+===============================================================================
+[#b5c38d 880MiB/1.1GiB(73%) CN:15 DL:10MiB ETA:30s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 880MiB/1.1GiB(73%) CN:15 DL:10MiB ETA:30s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:00 2025 *** 
+===============================================================================
+[#b5c38d 892MiB/1.1GiB(74%) CN:14 DL:11MiB ETA:28s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 892MiB/1.1GiB(74%) CN:14 DL:11MiB ETA:28s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:01 2025 *** 
+===============================================================================
+[#b5c38d 904MiB/1.1GiB(75%) CN:13 DL:11MiB ETA:26s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 904MiB/1.1GiB(75%) CN:13 DL:11MiB ETA:26s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:02 2025 *** 
+===============================================================================
+[#b5c38d 912MiB/1.1GiB(75%) CN:13 DL:10MiB ETA:26s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 912MiB/1.1GiB(75%) CN:13 DL:10MiB ETA:26s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:03 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(76%) CN:13 DL:11MiB ETA:25s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(76%) CN:13 DL:11MiB ETA:25s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:04 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(77%) CN:13 DL:11MiB ETA:24s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(77%) CN:13 DL:11MiB ETA:24s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:05 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(78%) CN:11 DL:11MiB ETA:23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(78%) CN:11 DL:11MiB ETA:23s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:06 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(79%) CN:10 DL:10MiB ETA:23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(79%) CN:10 DL:10MiB ETA:23s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:07 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(79%) CN:10 DL:9.9MiB ETA:24s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(79%) CN:10 DL:9.9MiB ETA:24s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:08 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(80%) CN:10 DL:9.8MiB ETA:23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(80%) CN:10 DL:9.8MiB ETA:23s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:09 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(81%) CN:10 DL:10MiB ETA:22s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(81%) CN:10 DL:10MiB ETA:22s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:10 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(82%) CN:10 DL:9.7MiB ETA:21s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(82%) CN:10 DL:9.7MiB ETA:21s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:11 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(83%) CN:10 DL:9.9MiB ETA:20s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(83%) CN:10 DL:9.9MiB ETA:20s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:12 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(84%) CN:9 DL:10MiB ETA:19s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(84%) CN:9 DL:10MiB ETA:19s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:13 2025 *** 
+===============================================================================
+[#b5c38d 0.9GiB/1.1GiB(84%) CN:9 DL:9.7MiB ETA:18s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 0.9GiB/1.1GiB(84%) CN:9 DL:9.7MiB ETA:18s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:14 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(85%) CN:9 DL:9.5MiB ETA:17s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(85%) CN:9 DL:9.5MiB ETA:17s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:15 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(86%) CN:8 DL:10MiB ETA:15s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(86%) CN:8 DL:10MiB ETA:15s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:16 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(87%) CN:8 DL:10MiB ETA:14s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(87%) CN:8 DL:10MiB ETA:14s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:17 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(88%) CN:8 DL:10MiB ETA:13s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(88%) CN:8 DL:10MiB ETA:13s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:18 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(89%) CN:8 DL:10MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(89%) CN:8 DL:10MiB ETA:12s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:19 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(90%) CN:7 DL:10MiB ETA:11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(90%) CN:7 DL:10MiB ETA:11s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:20 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(90%) CN:6 DL:10MiB ETA:10s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(90%) CN:6 DL:10MiB ETA:10s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:21 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(91%) CN:6 DL:10MiB ETA:9s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(91%) CN:6 DL:10MiB ETA:9s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:22 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(92%) CN:6 DL:10MiB ETA:8s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(92%) CN:6 DL:10MiB ETA:8s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:23 2025 *** 
+===============================================================================
+[#b5c38d 1.0GiB/1.1GiB(93%) CN:6 DL:10MiB ETA:7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.0GiB/1.1GiB(93%) CN:6 DL:10MiB ETA:7s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:24 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(94%) CN:4 DL:10MiB ETA:6s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(94%) CN:4 DL:10MiB ETA:6s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:25 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(94%) CN:4 DL:10MiB ETA:6s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(94%) CN:4 DL:10MiB ETA:6s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:26 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(95%) CN:3 DL:9.9MiB ETA:5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(95%) CN:3 DL:9.9MiB ETA:5s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:27 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(96%) CN:3 DL:10MiB ETA:4s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(96%) CN:3 DL:10MiB ETA:4s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:28 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(97%) CN:3 DL:9.3MiB ETA:3s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(97%) CN:3 DL:9.3MiB ETA:3s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:29 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(98%) CN:3 DL:9.5MiB ETA:2s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(98%) CN:3 DL:9.5MiB ETA:2s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:30 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(98%) CN:3 DL:9.7MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(98%) CN:3 DL:9.7MiB ETA:1s]
+ *** Download Progress Summary as of Sun Dec 21 16:55:31 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(99%) CN:1 DL:9.3MiB]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(99%) CN:1 DL:9.3MiB]
+ *** Download Progress Summary as of Sun Dec 21 16:55:32 2025 *** 
+===============================================================================
+[#b5c38d 1.1GiB/1.1GiB(99%) CN:1 DL:8.6MiB]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+-------------------------------------------------------------------------------
+
+[#b5c38d 1.1GiB/1.1GiB(99%) CN:1 DL:8.6MiB]
+
+12/21 16:55:32 [[1;32mNOTICE[0m] Download complete: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+b5c38d|OK  |    10MiB/s|/run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+
+Status Legend:
+(OK):download completed.

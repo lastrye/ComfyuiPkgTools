@@ -18,6 +18,7 @@ import {
 } from "./common.js";
 import { ComponentBuilderDialog, getPureName, load_components, set_component_policy } from "./components-manager.js";
 import { CustomNodesManager } from "./custom-nodes-manager.js";
+import { WorkflowDownloader } from "./workflow-downloader.js";
 import { ModelManager } from "./model-manager.js";
 import { SnapshotManager } from "./snapshot.js";
 import { buildGuiFrame, createSettingsCombo } from "./comfyui-gui-builder.js";
@@ -910,8 +911,20 @@ class ManagerMenuDialog extends ComfyDialog {
 						}
 				}),
 				
-				$el("div", {}, []),
-				$el("button.p-button.p-component.cm-button", {
+				$el("button.cm-button", {
+					type: "button",
+					textContent: "Custom Workflow Downloader",
+					onclick:
+						() => {
+							if(!WorkflowDownloader.instance) {
+								WorkflowDownloader.instance = new WorkflowDownloader(app, self);
+							}
+							WorkflowDownloader.instance.show();
+						}
+				}),
+
+				$el("br", {}, []),
+				$el("button.cm-button", {
 					type: "button",
 					textContent: "Model Manager",
 					onclick:

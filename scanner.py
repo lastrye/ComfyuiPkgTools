@@ -133,7 +133,7 @@ def download_url(url, dest_folder, filename=None):
     dest_path = os.path.join(dest_folder, filename)
 
     # Download the file
-    response = requests.get(url, stream=True)
+    response = requests.get(url, stream=True, proxies=get_proxies())
     if response.status_code == 200:
         with open(dest_path, 'wb') as file:
             for chunk in response.iter_content(chunk_size=1024):

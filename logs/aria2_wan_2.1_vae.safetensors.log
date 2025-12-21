@@ -1,0 +1,679 @@
+Caught Error while parsing environment variable 'http_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--http-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+Caught Error while parsing environment variable 'https_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--https-proxy'.
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+
+Caught Error while parsing environment variable 'all_proxy'
+Exception: [AbstractOptionHandler.cc:69] errorCode=28 We encountered a problem while processing the option '--all-proxy'.
+
+  -> [OptionHandlerImpl.cc:520] errorCode=1 unrecognized proxy format
+12/21 16:52:05 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+
+12/21 16:52:05 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084828Z&X-Amz-Expires=3600&X-Amz-Signature=a2600710138ce94593acb669d505db3098e783c8234b39ef9f55edc6d86164e8&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=68c7e1151d97a798337e50d3&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310508&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDUwOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=n4F%7E7EjwMk-dSgvRDrKBYKW7R8gejENWtXRHkCi5wPnJ0EqAGMAYCvUktnYeM3JQbW9OBtSqwObk89F5qIFJUk3wb3iBNJdTcGcfMCgLUe8kUr5xUVFABv87fU0Pa4FAU2oQGeVf9e71LMNL2DMhIhbcfmOZN7sr-LzZxRYCtPvSEisB7XNUtLILjvplAYdbp3ZjhGrVk1uPJ9KxNTMJ7Nx7XEBMCvhROORbBF5u05EwXYIxz-pYO33bnj6ziTVaTULSpYOHZOnYbPPslpZwXX%7EnPRq6yC7p9C4kiFNzCAGKSQsCowSPlInLi6Kxc%7ET4N75CGSx2d6CxieUVZoFrqA__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:52:06 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:07 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:08 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:09 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:10 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:11 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:12 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:13 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:14 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:15 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:16 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:17 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:18 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:19 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:20 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:21 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:22 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:23 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:24 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:26 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:27 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:28 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:29 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:30 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:31 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:32 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:33 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:34 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:35 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:36 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:37 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:38 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:39 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:40 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:41 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:42 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:43 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:44 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:45 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:46 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:47 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:48 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:49 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:50 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:51 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:52 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:53 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:54 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:55 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:56 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:57 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:58 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:52:59 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:53:00 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:53:01 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:53:02 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:53:03 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:53:04 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:53:05 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:53:06 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+ *** Download Progress Summary as of Sun Dec 21 16:53:07 2025 *** 
+===============================================================================
+[#4e2e51 0B/0B CN:1 DL:0B]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 0B/0B CN:1 DL:0B]
+
+12/21 16:53:07 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085307Z&X-Amz-Expires=3600&X-Amz-Signature=0e2726c75fb04e0f006ef0a397942f5945dbd3cd984070ac8653581a7afacd1c&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310787&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDc4N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=f7DqhAgHH%7EJjaxT4T6oBKmHcuoN7yyp6KIs3swHGcKc662ncId2SjqrNm36Y7d2Y7ggoRBrQjDEaOc1Lt3xZ2geeDTsLExPuABYstqjzbKXaPfgdMNaG3AE0OwQxpuF1S5IAL3YR9mQblzce1NtC2DKIenENOJ8bjhjDcqKJfl5xGeQazJl-HRSkBBi2Vn93pjheUIah8u8Dwk7j1jDzCDlckjutbp5yPaufs9bUOmTcr0U2a9idPcvEqDxUzOyVLh%7EhQOyjWhnKiQxK80nUU33cMDsgnCGKmv8UGlyyooEfNWqgXPTs4gQXWfurd5Ud0whY6D0JQ04pvw3%7EigyloQ__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:53:08 2025 *** 
+===============================================================================
+[#4e2e51 16KiB/242MiB(0%) CN:8 DL:404KiB ETA:10m12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 16KiB/242MiB(0%) CN:8 DL:404KiB ETA:10m12s]
+
+12/21 16:53:08 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085308Z&X-Amz-Expires=3600&X-Amz-Signature=16bf94e25d4e208dffa267b32dca3251d49b487b2da2a1e2377cff0999753010&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310788&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDc4OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=gXzG9jBA5Pm2Y0bGGk8TBdcg%7Ex47qgZG2uRfsqa5owvWHWiDvLaPHnIH085AMTV%7Eg2v5FUn14mpsCK--Nyp6ZyCEALUxy0tEhUi7GbdvkC-BcRQquyMrU9RrNTfQMeLOCqVvYZ-0ZXxhez0dVfAqzaASPLZ-l9IBzUUGZryV6%7ENeMUCNpK0uAqoB5GGYvJB%7Eqyg%7EPsZXcGWydhewYo-0E05sbcpP-lNjEV2E4MhrKEJRw6yolJQIf1SN0BLIVu3cF1gVVP3bAvZJi5X7g1B2hGx3A2wO9hiVx9Nw2nOArPm-RVV3gABjHv6S5IWBzM1UbcDOFfPWvvMMDwcJndfo2Q__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:08 [[1;32mNOTICE[0m] CUID#15 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T084947Z&X-Amz-Expires=3600&X-Amz-Signature=b91ba20d9425cbba8784fd4e92fe3ae306b5f986f34e297cfa73b8aa134e3020&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=68e886bee99566e17c55fc52&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310587&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDU4N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=H-hGAgcDtGkr%7EVzi9NVhX5Fu8Yzw0X20a3mt2yzmGlRJHkVfWkWMtIv-8m7d9y%7ETvIs7XZJ%7EM7rfP9u7HGyNzFdzY9u2qCj5uythaOvxT3h7OjZr2nUALRPvSTrJE7F5FEmYtP%7ENbNV%7ED5ofUqzRBqyNcMmr2ZnHhLpVjI90bbH2fFZAqRv2l5MTyPsIOWjP4IQRejB-whtyR-FOGuGP7Fosc2g3cGl7wIOG7niXkeJgNxaf%7EvVZIEbiBd-Aw0xkOeceVrQ3DAkzrNjaLzZf4ErfYdG4J2AALsBP5endh9Oh4eZ3bEeKUNDpP1nkh5KdZignLlcZkcU4SL3%7E2Dy1ug__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:08 [[1;32mNOTICE[0m] CUID#9 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085308Z&X-Amz-Expires=3600&X-Amz-Signature=16bf94e25d4e208dffa267b32dca3251d49b487b2da2a1e2377cff0999753010&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310788&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDc4OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=gXzG9jBA5Pm2Y0bGGk8TBdcg%7Ex47qgZG2uRfsqa5owvWHWiDvLaPHnIH085AMTV%7Eg2v5FUn14mpsCK--Nyp6ZyCEALUxy0tEhUi7GbdvkC-BcRQquyMrU9RrNTfQMeLOCqVvYZ-0ZXxhez0dVfAqzaASPLZ-l9IBzUUGZryV6%7ENeMUCNpK0uAqoB5GGYvJB%7Eqyg%7EPsZXcGWydhewYo-0E05sbcpP-lNjEV2E4MhrKEJRw6yolJQIf1SN0BLIVu3cF1gVVP3bAvZJi5X7g1B2hGx3A2wO9hiVx9Nw2nOArPm-RVV3gABjHv6S5IWBzM1UbcDOFfPWvvMMDwcJndfo2Q__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:08 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085308Z&X-Amz-Expires=3600&X-Amz-Signature=16bf94e25d4e208dffa267b32dca3251d49b487b2da2a1e2377cff0999753010&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310788&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDc4OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=gXzG9jBA5Pm2Y0bGGk8TBdcg%7Ex47qgZG2uRfsqa5owvWHWiDvLaPHnIH085AMTV%7Eg2v5FUn14mpsCK--Nyp6ZyCEALUxy0tEhUi7GbdvkC-BcRQquyMrU9RrNTfQMeLOCqVvYZ-0ZXxhez0dVfAqzaASPLZ-l9IBzUUGZryV6%7ENeMUCNpK0uAqoB5GGYvJB%7Eqyg%7EPsZXcGWydhewYo-0E05sbcpP-lNjEV2E4MhrKEJRw6yolJQIf1SN0BLIVu3cF1gVVP3bAvZJi5X7g1B2hGx3A2wO9hiVx9Nw2nOArPm-RVV3gABjHv6S5IWBzM1UbcDOFfPWvvMMDwcJndfo2Q__&Key-Pair-Id=K2L8F4GPSG1IFC
+
+12/21 16:53:08 [[1;32mNOTICE[0m] CUID#13 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085308Z&X-Amz-Expires=3600&X-Amz-Signature=16bf94e25d4e208dffa267b32dca3251d49b487b2da2a1e2377cff0999753010&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310788&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDc4OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=gXzG9jBA5Pm2Y0bGGk8TBdcg%7Ex47qgZG2uRfsqa5owvWHWiDvLaPHnIH085AMTV%7Eg2v5FUn14mpsCK--Nyp6ZyCEALUxy0tEhUi7GbdvkC-BcRQquyMrU9RrNTfQMeLOCqVvYZ-0ZXxhez0dVfAqzaASPLZ-l9IBzUUGZryV6%7ENeMUCNpK0uAqoB5GGYvJB%7Eqyg%7EPsZXcGWydhewYo-0E05sbcpP-lNjEV2E4MhrKEJRw6yolJQIf1SN0BLIVu3cF1gVVP3bAvZJi5X7g1B2hGx3A2wO9hiVx9Nw2nOArPm-RVV3gABjHv6S5IWBzM1UbcDOFfPWvvMMDwcJndfo2Q__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:53:09 2025 *** 
+===============================================================================
+[#4e2e51 2.3MiB/242MiB(0%) CN:8 DL:2.2MiB ETA:1m46s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 2.3MiB/242MiB(0%) CN:8 DL:2.2MiB ETA:1m46s]
+
+12/21 16:53:09 [[1;32mNOTICE[0m] CUID#14 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085308Z&X-Amz-Expires=3600&X-Amz-Signature=16bf94e25d4e208dffa267b32dca3251d49b487b2da2a1e2377cff0999753010&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310788&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDc4OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=gXzG9jBA5Pm2Y0bGGk8TBdcg%7Ex47qgZG2uRfsqa5owvWHWiDvLaPHnIH085AMTV%7Eg2v5FUn14mpsCK--Nyp6ZyCEALUxy0tEhUi7GbdvkC-BcRQquyMrU9RrNTfQMeLOCqVvYZ-0ZXxhez0dVfAqzaASPLZ-l9IBzUUGZryV6%7ENeMUCNpK0uAqoB5GGYvJB%7Eqyg%7EPsZXcGWydhewYo-0E05sbcpP-lNjEV2E4MhrKEJRw6yolJQIf1SN0BLIVu3cF1gVVP3bAvZJi5X7g1B2hGx3A2wO9hiVx9Nw2nOArPm-RVV3gABjHv6S5IWBzM1UbcDOFfPWvvMMDwcJndfo2Q__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:53:10 2025 *** 
+===============================================================================
+[#4e2e51 10MiB/242MiB(4%) CN:8 DL:5.1MiB ETA:44s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 10MiB/242MiB(4%) CN:8 DL:5.1MiB ETA:44s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:11 2025 *** 
+===============================================================================
+[#4e2e51 21MiB/242MiB(8%) CN:8 DL:6.9MiB ETA:31s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 21MiB/242MiB(8%) CN:8 DL:6.9MiB ETA:31s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:12 2025 *** 
+===============================================================================
+[#4e2e51 34MiB/242MiB(14%) CN:8 DL:8.2MiB ETA:25s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 34MiB/242MiB(14%) CN:8 DL:8.2MiB ETA:25s]
+
+12/21 16:53:13 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/67be35b066f702bfed7d3bdc/2e358d90f91ce658dc1be053d44cf2d6437e5f517c71ae89fcb2c89fd54ca67e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251221T085312Z&X-Amz-Expires=3600&X-Amz-Signature=bded59a90c490a82988f6af852e27f2b5c6cffa777314bb158a2c8079982faa9&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27wan_2.1_vae.safetensors%3B+filename%3D%22wan_2.1_vae.safetensors%22%3B&x-id=GetObject&Expires=1766310792&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NjMxMDc5Mn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2JlMzViMDY2ZjcwMmJmZWQ3ZDNiZGMvMmUzNThkOTBmOTFjZTY1OGRjMWJlMDUzZDQ0Y2YyZDY0MzdlNWY1MTdjNzFhZTg5ZmNiMmM4OWZkNTRjYTY3ZSoifV19&Signature=MdOgc5aIUsJ-W%7E8hKGcNDYWOE2HwDB0sB149ZxRVIAQi8mMlLbMYn79SP3I7GOkuMIeyGM7Oxgzw7g2ssEomcTooEOXqtT50A64Y-mQkV26XgroROLxb1rTMpWINsEMFHAltKeaIMQNBiAQZvUXiFV4v0WM7bkPSfma0hiSp0n-ZbOzlEmdkUJKEolZke7FBqNAT6BW4ZvfI7DjQIk-a-GXqDaMTyed-OIVN5OpdWrkHToxvig5n-h07HGiP4l0qTNPCXwUXPk4ZexvOvOXct%7EDxYkgv3LhuPzW3F4ch5%7EnYY10HFFFTOjngSNxtHZkKSwqxgR7IcYrCMeXpwc5jgg__&Key-Pair-Id=K2L8F4GPSG1IFC
+ *** Download Progress Summary as of Sun Dec 21 16:53:13 2025 *** 
+===============================================================================
+[#4e2e51 44MiB/242MiB(18%) CN:8 DL:8.5MiB ETA:23s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 44MiB/242MiB(18%) CN:8 DL:8.5MiB ETA:23s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:14 2025 *** 
+===============================================================================
+[#4e2e51 55MiB/242MiB(22%) CN:8 DL:8.9MiB ETA:20s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 55MiB/242MiB(22%) CN:8 DL:8.9MiB ETA:20s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:15 2025 *** 
+===============================================================================
+[#4e2e51 65MiB/242MiB(26%) CN:8 DL:9.1MiB ETA:19s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 65MiB/242MiB(26%) CN:8 DL:9.1MiB ETA:19s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:16 2025 *** 
+===============================================================================
+[#4e2e51 76MiB/242MiB(31%) CN:8 DL:9.4MiB ETA:17s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 76MiB/242MiB(31%) CN:8 DL:9.4MiB ETA:17s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:17 2025 *** 
+===============================================================================
+[#4e2e51 88MiB/242MiB(36%) CN:8 DL:9.5MiB ETA:16s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 88MiB/242MiB(36%) CN:8 DL:9.5MiB ETA:16s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:18 2025 *** 
+===============================================================================
+[#4e2e51 99MiB/242MiB(41%) CN:7 DL:10MiB ETA:13s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 99MiB/242MiB(41%) CN:7 DL:10MiB ETA:13s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:19 2025 *** 
+===============================================================================
+[#4e2e51 109MiB/242MiB(45%) CN:7 DL:10MiB ETA:12s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 109MiB/242MiB(45%) CN:7 DL:10MiB ETA:12s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:20 2025 *** 
+===============================================================================
+[#4e2e51 120MiB/242MiB(49%) CN:7 DL:10MiB ETA:11s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 120MiB/242MiB(49%) CN:7 DL:10MiB ETA:11s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:21 2025 *** 
+===============================================================================
+[#4e2e51 128MiB/242MiB(53%) CN:7 DL:10MiB ETA:10s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 128MiB/242MiB(53%) CN:7 DL:10MiB ETA:10s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:22 2025 *** 
+===============================================================================
+[#4e2e51 138MiB/242MiB(57%) CN:7 DL:10MiB ETA:9s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 138MiB/242MiB(57%) CN:7 DL:10MiB ETA:9s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:23 2025 *** 
+===============================================================================
+[#4e2e51 148MiB/242MiB(61%) CN:5 DL:10MiB ETA:8s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 148MiB/242MiB(61%) CN:5 DL:10MiB ETA:8s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:24 2025 *** 
+===============================================================================
+[#4e2e51 156MiB/242MiB(64%) CN:5 DL:10MiB ETA:8s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 156MiB/242MiB(64%) CN:5 DL:10MiB ETA:8s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:25 2025 *** 
+===============================================================================
+[#4e2e51 166MiB/242MiB(68%) CN:5 DL:10MiB ETA:7s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 166MiB/242MiB(68%) CN:5 DL:10MiB ETA:7s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:26 2025 *** 
+===============================================================================
+[#4e2e51 176MiB/242MiB(73%) CN:5 DL:10MiB ETA:6s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 176MiB/242MiB(73%) CN:5 DL:10MiB ETA:6s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:27 2025 *** 
+===============================================================================
+[#4e2e51 187MiB/242MiB(77%) CN:3 DL:10MiB ETA:5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 187MiB/242MiB(77%) CN:3 DL:10MiB ETA:5s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:28 2025 *** 
+===============================================================================
+[#4e2e51 190MiB/242MiB(78%) CN:3 DL:9.1MiB ETA:5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 190MiB/242MiB(78%) CN:3 DL:9.1MiB ETA:5s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:29 2025 *** 
+===============================================================================
+[#4e2e51 193MiB/242MiB(79%) CN:3 DL:8.4MiB ETA:5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 193MiB/242MiB(79%) CN:3 DL:8.4MiB ETA:5s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:30 2025 *** 
+===============================================================================
+[#4e2e51 195MiB/242MiB(80%) CN:2 DL:7.7MiB ETA:5s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 195MiB/242MiB(80%) CN:2 DL:7.7MiB ETA:5s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:31 2025 *** 
+===============================================================================
+[#4e2e51 198MiB/242MiB(82%) CN:2 DL:7.0MiB ETA:6s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 198MiB/242MiB(82%) CN:2 DL:7.0MiB ETA:6s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:32 2025 *** 
+===============================================================================
+[#4e2e51 202MiB/242MiB(83%) CN:2 DL:6.1MiB ETA:6s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 202MiB/242MiB(83%) CN:2 DL:6.1MiB ETA:6s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:33 2025 *** 
+===============================================================================
+[#4e2e51 211MiB/242MiB(87%) CN:2 DL:6.3MiB ETA:4s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 211MiB/242MiB(87%) CN:2 DL:6.3MiB ETA:4s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:34 2025 *** 
+===============================================================================
+[#4e2e51 222MiB/242MiB(91%) CN:2 DL:6.5MiB ETA:3s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 222MiB/242MiB(91%) CN:2 DL:6.5MiB ETA:3s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:35 2025 *** 
+===============================================================================
+[#4e2e51 230MiB/242MiB(95%) CN:1 DL:6.3MiB ETA:1s]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 230MiB/242MiB(95%) CN:1 DL:6.3MiB ETA:1s]
+ *** Download Progress Summary as of Sun Dec 21 16:53:36 2025 *** 
+===============================================================================
+[#4e2e51 237MiB/242MiB(98%) CN:1 DL:5.9MiB]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 237MiB/242MiB(98%) CN:1 DL:5.9MiB]
+ *** Download Progress Summary as of Sun Dec 21 16:53:37 2025 *** 
+===============================================================================
+[#4e2e51 241MiB/242MiB(99%) CN:1 DL:5.5MiB]
+FILE: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+-------------------------------------------------------------------------------
+
+[#4e2e51 241MiB/242MiB(99%) CN:1 DL:5.5MiB]
+
+12/21 16:53:37 [[1;32mNOTICE[0m] Download complete: /run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+4e2e51|OK  |   8.2MiB/s|/run/media/lastrye/Dev/AIGC/ComfyUI/ComfyUI/models/vae/wan_2.1_vae.safetensors
+
+Status Legend:
+(OK):download completed.

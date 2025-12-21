@@ -13,7 +13,10 @@ import shutil
 import git
 from datetime import datetime
 
-from server import PromptServer
+try:
+    from server import PromptServer
+except ImportError:
+    from web_source.usersocket.server import PromptServer
 import manager_core as core
 import manager_util
 import cm_global
@@ -23,6 +26,13 @@ import queue
 
 import manager_downloader
 import manager_migration
+try:
+    import workflow_utils
+except ImportError:
+    try:
+        from glob import workflow_utils
+    except ImportError:
+        workflow_utils = None
 
 
 logging.info(f"### Loading: ComfyUI-Manager ({core.version_str})")
@@ -606,7 +616,7 @@ async def task_worker():
                 elif not core.get_config()['model_download_by_agent'] and (
                         model_url.startswith('https://github.com') or model_url.startswith('https://huggingface.co') or model_url.startswith('https://heibox.uni-heidelberg.de')):
                     model_dir = get_model_dir(json_data, True)
-                    download_url(model_url, model_dir, filename=json_data['filename'])
+                    await manager_downloader.async_download_url(model_url, model_dir, filename=json_data['filename'])
                     if model_path.endswith('.zip'):
                         res = core.unzip(model_path)
                     else:
@@ -1844,6 +1854,106 @@ async def default_cache_update():
 
 
 threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
+
+@routes.get("/manager/workflow/list")
+async def fetch_workflow_list(request):
+    try:
+        workflows_path = os.path.join(core.comfy_path, 'user', 'default', 'workflows')
+        if not os.path.exists(workflows_path):
+            return web.json_response([], content_type='application/json')
+            
+        files = [f for f in os.listdir(workflows_path) if f.endswith('.json')]
+        files.sort()
+        return web.json_response(files, content_type='application/json')
+    except Exception:
+        traceback.print_exc()
+        return web.Response(status=500)
+
+@routes.post("/manager/workflow/analyze")
+async def analyze_workflow_endpoint(request):
+    try:
+        json_data = await request.json()
+        
+        # Check if it's a file request or content request
+        if 'filename' in json_data and 'nodes' not in json_data:
+            filename = json_data['filename']
+            workflows_path = os.path.join(core.comfy_path, 'user', 'default', 'workflows')
+            file_path = os.path.join(workflows_path, filename)
+            
+            # Security check
+            if not os.path.abspath(file_path).startswith(os.path.abspath(workflows_path)):
+                return web.Response(status=403)
+                
+            if not os.path.exists(file_path):
+                return web.Response(status=404)
+                
+            with open(file_path, 'r', encoding='utf-8') as f:
+                workflow_json = json.load(f)
+        else:
+            workflow_json = json_data
+
+        if workflow_utils:
+            res = await workflow_utils.analyze_workflow(workflow_json)
+            return web.json_response(res)
+        else:
+            return web.Response(status=500, text="workflow_utils not loaded")
+            
+    except Exception as e:
+        logging.error(f"[ComfyUI-Manager] Analyze workflow error: {e}")
+        return web.Response(status=400)
+
+@routes.post("/manager/workflow/download")
+async def download_workflow_models(request):
+    try:
+        json_data = await request.json()
+        
+        for model in json_data:
+             install_item = model.get('name', 'Unknown'), model
+             task_queue.put(("install-model", install_item))
+             
+        return web.Response(status=200)
+    except Exception as e:
+        logging.error(f"[ComfyUI-Manager] Download workflow error: {e}")
+        return web.Response(status=400)
+
+@routes.post("/manager/workflow/update_paths")
+async def update_workflow_paths_endpoint(request):
+    try:
+        if not workflow_utils:
+            return web.Response(status=500, text="workflow_utils not loaded")
+            
+        json_data = await request.json()
+        filename = json_data.get('filename')
+        models_info = json_data.get('models')
+        
+        if not filename or not models_info:
+             return web.Response(status=400, text="Missing filename or models")
+
+        workflows_path = os.path.join(core.comfy_path, 'user', 'default', 'workflows')
+        file_path = os.path.join(workflows_path, filename)
+        
+        # Security check
+        if not os.path.abspath(file_path).startswith(os.path.abspath(workflows_path)):
+            return web.Response(status=403)
+            
+        if not os.path.exists(file_path):
+            return web.Response(status=404)
+            
+        with open(file_path, 'r', encoding='utf-8') as f:
+            workflow_json = json.load(f)
+            
+        updated_json, updated = workflow_utils.update_workflow_model_paths(workflow_json, models_info)
+        
+        if updated:
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(updated_json, f, indent=2)
+            logging.info(f"[ComfyUI-Manager] Updated workflow file: {filename}")
+            
+        return web.json_response({'updated': updated})
+            
+    except Exception as e:
+        logging.error(f"[ComfyUI-Manager] Update workflow paths error: {e}")
+        return web.Response(status=400)
 
 if not os.path.exists(core.manager_config_path):
     core.get_config()

@@ -6,7 +6,16 @@ import logging
 import requests
 from huggingface_hub import HfApi
 from tqdm.auto import tqdm
-
+import aiohttp
+import asyncio
+import manager_util
+try:
+    import aria2_control
+except ImportError:
+    try:
+        from glob import aria2_control
+    except ImportError:
+        aria2_control = None
 
 aria2 = os.getenv('COMFYUI_MANAGER_ARIA2_SERVER')
 HF_ENDPOINT = os.getenv('HF_ENDPOINT')
@@ -37,7 +46,7 @@ def basic_download_url(url, dest_folder: str, filename: str):
     dest_path = os.path.join(dest_folder, filename)
 
     # Download the file
-    response = requests.get(url, stream=True)
+    response = requests.get(url, stream=True, proxies=manager_util.get_proxies())
     if response.status_code == 200:
         with open(dest_path, 'wb') as file:
             for chunk in response.iter_content(chunk_size=1024):
@@ -48,6 +57,10 @@ def basic_download_url(url, dest_folder: str, filename: str):
 
 
 def download_url(model_url: str, model_dir: str, filename: str):
+    if aria2_control and aria2_control.is_aria2c_installed():
+        if aria2_control.aria2_download(model_url, model_dir, filename):
+            return True
+
     if HF_ENDPOINT:
         model_url = model_url.replace('https://huggingface.co', HF_ENDPOINT)
         logging.info(f"model_url replaced by HF_ENDPOINT, new = {model_url}")
@@ -57,6 +70,47 @@ def download_url(model_url: str, model_dir: str, filename: str):
         from torchvision.datasets.utils import download_url as torchvision_download_url
         try:
             return torchvision_download_url(model_url, model_dir, filename)
+        except Exception as e:
+            logging.error(f"[ComfyUI-Manager] Failed to download: {model_url} / {repr(e)}")
+            raise
+
+
+async def async_download_url(model_url: str, model_dir: str, filename: str):
+    if aria2_control and aria2_control.is_aria2c_installed():
+        loop = asyncio.get_event_loop()
+        res = await loop.run_in_executor(None, aria2_control.aria2_download, model_url, model_dir, filename)
+        if res:
+            return True
+
+    if HF_ENDPOINT:
+        model_url = model_url.replace('https://huggingface.co', HF_ENDPOINT)
+        logging.info(f"model_url replaced by HF_ENDPOINT, new = {model_url}")
+    if aria2:
+        return aria2_download_url(model_url, model_dir, filename)
+    else:
+        if not os.path.exists(model_dir):
+            os.makedirs(model_dir)
+
+        dest_path = os.path.join(model_dir, filename)
+
+        connector = manager_util.get_connector()
+        trust_env = True
+        if manager_util.ProxyConnector and isinstance(connector, manager_util.ProxyConnector):
+            trust_env = False
+
+        try:
+            async with aiohttp.ClientSession(connector=connector, trust_env=trust_env) as session:
+                async with session.get(model_url) as response:
+                    if response.status == 200:
+                        total_size = int(response.headers.get('content-length', 0))
+                        with open(dest_path, 'wb') as f, tqdm(
+                            total=total_size, unit='B', unit_scale=True, desc=filename
+                        ) as pbar:
+                            async for chunk in response.content.iter_chunked(1024):
+                                f.write(chunk)
+                                pbar.update(len(chunk))
+                    else:
+                        raise Exception(f"Failed to download file from {model_url}, status: {response.status}")
         except Exception as e:
             logging.error(f"[ComfyUI-Manager] Failed to download: {model_url} / {repr(e)}")
             raise

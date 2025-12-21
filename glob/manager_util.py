@@ -5,6 +5,10 @@ description:
 import traceback
 
 import aiohttp
+try:
+    from aiohttp_socks import ProxyConnector
+except ImportError:
+    ProxyConnector = None
 import json
 import threading
 import os
@@ -178,12 +182,36 @@ def is_file_created_within_one_day(file_path):
     return time_difference <= 86400
 
 
+def get_connector(verify_ssl=True):
+    connector = None
+    if ProxyConnector:
+        proxy_url = os.environ.get('http_proxy') or os.environ.get('https_proxy') or os.environ.get('all_proxy') or \
+                    os.environ.get('HTTP_PROXY') or os.environ.get('HTTPS_PROXY') or os.environ.get('ALL_PROXY')
+        if proxy_url and (proxy_url.startswith('socks') or proxy_url.startswith('SOCKS')):
+            connector = ProxyConnector.from_url(proxy_url, verify_ssl=verify_ssl)
+    if connector is None:
+        connector = aiohttp.TCPConnector(verify_ssl=verify_ssl)
+    return connector
+
+
+def get_proxies():
+    proxy_url = os.environ.get('http_proxy') or os.environ.get('https_proxy') or os.environ.get('all_proxy') or \
+                os.environ.get('HTTP_PROXY') or os.environ.get('HTTPS_PROXY') or os.environ.get('ALL_PROXY')
+    if proxy_url:
+        return {'http': proxy_url, 'https': proxy_url}
+    return {}
+
+
 async def get_data(uri, silent=False):
     if not silent:
         print(f"FETCH DATA from: {uri}", end="")
 
     if uri.startswith("http"):
-        async with aiohttp.ClientSession(trust_env=True, connector=aiohttp.TCPConnector(verify_ssl=not bypass_ssl)) as session:
+        connector = get_connector(verify_ssl=not bypass_ssl)
+        trust_env = True
+        if ProxyConnector and isinstance(connector, ProxyConnector):
+            trust_env = False
+        async with aiohttp.ClientSession(trust_env=trust_env, connector=connector) as session:
             headers = {
                 'Cache-Control': 'no-cache',
                 'Pragma': 'no-cache',
