@@ -1699,6 +1699,7 @@ def write_config():
         'always_lazy_install': get_config()['always_lazy_install'],
         'network_mode': get_config()['network_mode'],
         'db_mode': get_config()['db_mode'],
+        'download_source': get_config()['download_source'],
     }
 
     directory = os.path.dirname(manager_config_path)
@@ -1720,6 +1721,7 @@ def read_config():
 
         manager_util.use_uv = default_conf['use_uv'].lower() == 'true' if 'use_uv' in default_conf else False
         manager_util.bypass_ssl = get_bool('bypass_ssl', False)
+        manager_util.download_source = default_conf.get('download_source', 'global').lower()
 
         result = {
                     'http_channel_enabled': get_bool('http_channel_enabled', False),
@@ -1740,6 +1742,7 @@ def read_config():
                     'network_mode': default_conf.get('network_mode', 'public').lower(),
                     'security_level': default_conf.get('security_level', 'normal').lower(),
                     'db_mode': default_conf.get('db_mode', 'cache').lower(),
+                    'download_source': manager_util.download_source,
                }
         manager_migration.force_security_level_if_needed(result)
         return result

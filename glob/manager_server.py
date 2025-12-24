@@ -1552,6 +1552,19 @@ async def db_mode(request):
     return web.Response(status=200)
 
 
+@routes.get("/manager/download_source")
+async def download_source(request):
+    if "value" in request.rel_url.query:
+        value = request.rel_url.query['value']
+        manager_util.download_source = value
+        core.get_config()['download_source'] = value
+        core.write_config()
+    else:
+        return web.Response(text=core.get_config().get('download_source', 'global'), status=200)
+
+    return web.Response(status=200)
+
+
 
 @routes.get("/manager/policy/component")
 async def component_policy(request):

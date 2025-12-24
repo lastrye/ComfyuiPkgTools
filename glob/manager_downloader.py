@@ -61,8 +61,14 @@ def download_url(model_url: str, model_dir: str, filename: str):
         if aria2_control.aria2_download(model_url, model_dir, filename):
             return True
 
-    if HF_ENDPOINT:
-        model_url = model_url.replace('https://huggingface.co', HF_ENDPOINT)
+    hf_endpoint = HF_ENDPOINT
+    if manager_util.download_source == 'domestic':
+        hf_endpoint = 'https://hf-mirror.com'
+    elif manager_util.download_source == 'global' and hf_endpoint == 'https://hf-mirror.com':
+        hf_endpoint = None
+
+    if hf_endpoint:
+        model_url = model_url.replace('https://huggingface.co', hf_endpoint)
         logging.info(f"model_url replaced by HF_ENDPOINT, new = {model_url}")
     if aria2:
         return aria2_download_url(model_url, model_dir, filename)

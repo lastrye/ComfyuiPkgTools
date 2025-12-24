@@ -29,6 +29,7 @@ cache_dir = os.path.join(comfyui_manager_path, '.cache')  # This path is also up
 
 use_uv = False
 bypass_ssl = False
+download_source = 'global'
 
 def add_python_path_to_env():
     if platform.system() != "Windows":

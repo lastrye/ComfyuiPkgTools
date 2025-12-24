@@ -1,5 +1,6 @@
 import os
 import configparser
+import manager_util
 
 
 GITHUB_ENDPOINT = os.getenv('GITHUB_ENDPOINT')
@@ -80,8 +81,15 @@ def normalize_to_github_id(url) -> str:
 def get_url_for_clone(url):
     url = normalize_url(url)
 
+    if manager_util.download_source == 'domestic':
+        if url.startswith('https://github.com/'):
+            return "https://gh-proxy.org/" + url
+
     if GITHUB_ENDPOINT is not None and url.startswith('https://github.com/'):
-        url = GITHUB_ENDPOINT + url[18:] # url[18:] -> remove `https://github.com`
+        if manager_util.download_source == 'global' and "gh-proxy.org" in GITHUB_ENDPOINT:
+            pass
+        else:
+            url = GITHUB_ENDPOINT + url[18:] # url[18:] -> remove `https://github.com`
 
     return url
     

@@ -911,7 +911,7 @@ class ManagerMenuDialog extends ComfyDialog {
 						}
 				}),
 				
-				$el("button.cm-button", {
+				$el("button.p-button.p-component.cm-button", {
 					type: "button",
 					textContent: "Custom Workflow Downloader",
 					onclick:
@@ -924,7 +924,7 @@ class ManagerMenuDialog extends ComfyDialog {
 				}),
 
 				$el("br", {}, []),
-				$el("button.cm-button", {
+				$el("button.p-button.p-component.cm-button", {
 					type: "button",
 					textContent: "Model Manager",
 					onclick:
@@ -984,6 +984,23 @@ class ManagerMenuDialog extends ComfyDialog {
 		});
 
 		const dbRetrievalSetttingItem = createSettingsCombo("DB", this.datasrc_combo);
+
+		// download source
+		let download_source_combo = document.createElement("select");
+		download_source_combo.setAttribute("title", "Configure the download source for models and git repositories.");
+		download_source_combo.className = "cm-menu-combo p-select p-component p-inputwrapper p-inputwrapper-filled";
+		download_source_combo.appendChild($el('option', { value: 'global', text: 'Global' }, []));
+		download_source_combo.appendChild($el('option', { value: 'domestic', text: 'Domestic (China)' }, []));
+
+		api.fetchApi('/manager/download_source')
+			.then(response => response.text())
+			.then(data => { download_source_combo.value = data; });
+
+		download_source_combo.addEventListener('change', function (event) {
+			api.fetchApi(`/manager/download_source?value=${event.target.value}`);
+		});
+
+		const downloadSourceSettingItem = createSettingsCombo("Download Source", download_source_combo);
 
 		// preview method
 		let preview_combo = document.createElement("select");
@@ -1194,6 +1211,7 @@ class ManagerMenuDialog extends ComfyDialog {
 
 		return [
 			dbRetrievalSetttingItem,
+			downloadSourceSettingItem,
 			channelSetttingItem,
 			previewSetttingItem,
 			shareSetttingItem,
